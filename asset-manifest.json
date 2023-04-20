@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Adital-App/static/css/main.7acaea2f.css",
+    "main.js": "/Adital-App/static/js/main.355edab2.js",
+    "index.html": "/Adital-App/index.html",
+    "main.7acaea2f.css.map": "/Adital-App/static/css/main.7acaea2f.css.map",
+    "main.355edab2.js.map": "/Adital-App/static/js/main.355edab2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.355edab2.js"
+  ]
+}
