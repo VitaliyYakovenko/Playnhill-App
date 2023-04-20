@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Adital-App/static/css/main.7acaea2f.css",
-    "main.js": "/Adital-App/static/js/main.355edab2.js",
+    "main.js": "/Adital-App/static/js/main.314bc0be.js",
     "index.html": "/Adital-App/index.html",
+    "static/media/img-hero.svg": "/Adital-App/static/media/img-hero.542f974d18e1949de578b2bd090cda1b.svg",
     "main.7acaea2f.css.map": "/Adital-App/static/css/main.7acaea2f.css.map",
-    "main.355edab2.js.map": "/Adital-App/static/js/main.355edab2.js.map"
+    "main.314bc0be.js.map": "/Adital-App/static/js/main.314bc0be.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.355edab2.js"
+    "static/js/main.314bc0be.js"
   ]
 }
