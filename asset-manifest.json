@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Adital-App/static/css/main.977dff1f.css",
-    "main.js": "/Adital-App/static/js/main.c9dbc65b.js",
+    "main.js": "/Adital-App/static/js/main.23b5fc35.js",
     "static/js/613.263f0117.chunk.js": "/Adital-App/static/js/613.263f0117.chunk.js",
     "static/js/124.475dd4fc.chunk.js": "/Adital-App/static/js/124.475dd4fc.chunk.js",
     "static/js/517.b7dfa9e3.chunk.js": "/Adital-App/static/js/517.b7dfa9e3.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/arrow-down.svg": "/Adital-App/static/media/arrow-down.b470baa17dd8eb50d265b2cc5eb50e93.svg",
     "static/media/arrow-up.svg": "/Adital-App/static/media/arrow-up.634447110ac1b932a2794e5249b3e69b.svg",
     "main.977dff1f.css.map": "/Adital-App/static/css/main.977dff1f.css.map",
-    "main.c9dbc65b.js.map": "/Adital-App/static/js/main.c9dbc65b.js.map",
+    "main.23b5fc35.js.map": "/Adital-App/static/js/main.23b5fc35.js.map",
     "613.263f0117.chunk.js.map": "/Adital-App/static/js/613.263f0117.chunk.js.map",
     "124.475dd4fc.chunk.js.map": "/Adital-App/static/js/124.475dd4fc.chunk.js.map",
     "517.b7dfa9e3.chunk.js.map": "/Adital-App/static/js/517.b7dfa9e3.chunk.js.map",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.977dff1f.css",
-    "static/js/main.c9dbc65b.js"
+    "static/js/main.23b5fc35.js"
   ]
 }
