@@ -8,7 +8,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
-    <BrowserRouter basename='/Adital-App'>
+    <BrowserRouter basename='/Playnhill-App'>
       <App />
     </BrowserRouter>
   // </React.StrictMode>
