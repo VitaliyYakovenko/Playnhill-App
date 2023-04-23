@@ -1,0 +1,59 @@
+[
+ {
+  "name": "Skyrim",
+  "img": "https://store-images.s-microsoft.com/image/apps.19255.14120048182721302.9120a847-1aae-4918-be10-96c02cb917a6.092d6861-c0ff-498c-9881-c0b7ff9f1f2d?",
+  "genre":["RPG, Action"],
+  "details" : "",
+  "id": "1"
+ },
+ {
+  "name": "Battlefield 2042",  
+  "img": "https://content2.rozetka.com.ua/goods/images/big/226821546.jpg",
+  "genre":["Shooter, Action"],
+  "details" : "",
+  "id": "2"
+ },
+ {
+  "name": "Red dead redemption 2",
+  "img": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Red_Dead_Redemption.jpg/220px-Red_Dead_Redemption.jpg",
+  "genre":["Shooter, Action, RPG"],
+  "details" : "",
+  "id": "3"
+ },
+ {
+  "name": "Need for Speed: Heat",
+  "img": "https://image.api.playstation.com/vulcan/ap/rnd/202210/3121/9y8pTbxVRpmB9qqFOiKsaJgA.png",
+  "genre":["Race"],
+  "details" : "",
+  "id": "4"
+ },
+ {
+  "name": "Mount & Blade II: Bannerlord",
+  "img": "https://upload.wikimedia.org/wikipedia/ru/a/a7/Mount_%26_Blade_II-_Bannerlord_%28%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0%29.jpg",
+  "genre":["RPG, Action"],
+  "details" : "",
+  "id": "5"
+ },
+ {
+  "name": "The Witcher 3: Wild Hunt",
+  "img": "https://picfiles.alphacoders.com/198/thumb-198636.jpg",
+  "genre":["RPG, Action"],
+  "details" : "",
+  "id": "6"
+ }, 
+ {
+  "name": "Dark Souls III",
+  "img": "https://image.api.playstation.com/cdn/EP0700/CUSA03365_00/OFMeAw2KhrdaEZAjW1f3tCIXbogkLpTC.png?",
+  "genre":["RPG, Action"],
+  "details" : "",
+  "id": "7"
+ },
+  {
+  "name": "Sid Meier’s Civilization VI",
+  "img": "https://pbs.twimg.com/media/FPRIUYiVEAUZtls?format=jpg&name=4096x4096",
+  "genre":["Strategy"],
+  "details" : "",
+  "id": "8"
+ }
+
+]

@@ -1,9 +1,10 @@
-import HeroHome from "components/Hero-Home/HeroHome"
-import Services from "components/Services/Services"
+import HeroHome from "components/Hero-components/Hero-Home/HeroHome"
+import TopGameList from "components/Hero-components/TopGameList/TopGameList"
 
 export default function Home() {
     return (<div>
         <HeroHome />
-        <Services/>
+        <TopGameList/>
     </div>)
 }
+

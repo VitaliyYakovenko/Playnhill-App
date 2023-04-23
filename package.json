@@ -4,13 +4,18 @@
   "private": true,
   "homepage": "https://VitaliyYakovenko.github.io.github.io/Adital-App/",
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.12.1",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "jsonp": "^0.2.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
     "web-vitals": "^2.1.3"
   },
   "scripts": {
