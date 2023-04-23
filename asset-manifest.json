@@ -1,14 +1,26 @@
 {
   "files": {
-    "main.css": "/Adital-App/static/css/main.7acaea2f.css",
-    "main.js": "/Adital-App/static/js/main.314bc0be.js",
+    "main.css": "/Adital-App/static/css/main.977dff1f.css",
+    "main.js": "/Adital-App/static/js/main.c9dbc65b.js",
+    "static/js/613.263f0117.chunk.js": "/Adital-App/static/js/613.263f0117.chunk.js",
+    "static/js/124.475dd4fc.chunk.js": "/Adital-App/static/js/124.475dd4fc.chunk.js",
+    "static/js/517.b7dfa9e3.chunk.js": "/Adital-App/static/js/517.b7dfa9e3.chunk.js",
+    "static/js/46.1169855c.chunk.js": "/Adital-App/static/js/46.1169855c.chunk.js",
+    "static/media/car-left.jpg": "/Adital-App/static/media/car-left.35e112b7a8eba6fc31c5.jpg",
+    "static/media/car-center.jpg": "/Adital-App/static/media/car-center.9fb99844738dc8a2cc17.jpg",
+    "static/media/car-rigth.jpg": "/Adital-App/static/media/car-rigth.8e3788e73f9ee298d6a6.jpg",
     "index.html": "/Adital-App/index.html",
-    "static/media/img-hero.svg": "/Adital-App/static/media/img-hero.542f974d18e1949de578b2bd090cda1b.svg",
-    "main.7acaea2f.css.map": "/Adital-App/static/css/main.7acaea2f.css.map",
-    "main.314bc0be.js.map": "/Adital-App/static/js/main.314bc0be.js.map"
+    "static/media/arrow-down.svg": "/Adital-App/static/media/arrow-down.b470baa17dd8eb50d265b2cc5eb50e93.svg",
+    "static/media/arrow-up.svg": "/Adital-App/static/media/arrow-up.634447110ac1b932a2794e5249b3e69b.svg",
+    "main.977dff1f.css.map": "/Adital-App/static/css/main.977dff1f.css.map",
+    "main.c9dbc65b.js.map": "/Adital-App/static/js/main.c9dbc65b.js.map",
+    "613.263f0117.chunk.js.map": "/Adital-App/static/js/613.263f0117.chunk.js.map",
+    "124.475dd4fc.chunk.js.map": "/Adital-App/static/js/124.475dd4fc.chunk.js.map",
+    "517.b7dfa9e3.chunk.js.map": "/Adital-App/static/js/517.b7dfa9e3.chunk.js.map",
+    "46.1169855c.chunk.js.map": "/Adital-App/static/js/46.1169855c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.314bc0be.js"
+    "static/css/main.977dff1f.css",
+    "static/js/main.c9dbc65b.js"
   ]
 }
