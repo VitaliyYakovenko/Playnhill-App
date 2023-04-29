@@ -1,17 +1,18 @@
-// import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import topGame from 'utils/topGame';
+import css from './TopGameList.module.css';
 
   
 
 export default function ToGameList() {
  
   return (
-    <div>
+    <section>
+    <div className={css.container}>
       <h2>Top games in different genres</h2>
-      <ul>
+      <ul className={css.gallery}>
         {topGame.map(game => (
-         <li key={game.id}>
+         <li className={css.galleryItem} key={game.id}>
            <img width={300} height={450} src={game.img} alt="game-poster" />
            <p>{game.name}</p>
            {game.genre.map(genre => <p key={genre}>{genre}</p>)}
@@ -19,6 +20,7 @@ export default function ToGameList() {
           </li>
        ))}
       </ul>
-     </div> 
+     </div>
+    </section>
     )
 }

@@ -1,0 +1,14 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.galleryItem {
+    flex-basis: calc(100% - 5 * 15px) / 4;
+}
