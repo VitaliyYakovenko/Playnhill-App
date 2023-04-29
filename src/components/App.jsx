@@ -14,7 +14,10 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Loayout/>} >
         <Route index element={<Home />} />
-        <Route path="/detailed" element={<Detailed />} />
+        <Route path="/detailed/:gameId" element={<Detailed />}/>
+         <Route path="info" element={<div>info</div>} />
+         <Route path="info-2" element={<div>info</div>} /> 
+        <Route />
         <Route path="/genres" element={<Blog />} />
         <Route path="/application" element={<ContactUs />} />
         <Route path="/technologies" element={<Studies />} />

@@ -2,8 +2,9 @@
  {
   "name": "Skyrim",
   "img": "https://store-images.s-microsoft.com/image/apps.19255.14120048182721302.9120a847-1aae-4918-be10-96c02cb917a6.092d6861-c0ff-498c-9881-c0b7ff9f1f2d?",
+  "sliderImg": ["https://image.api.playstation.com/vulcan/ap/rnd/202009/2820/h12URI7MdswtFPFHpkppNh2z.png", "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_TheElderScrollsVSkyrim.jpg", "https://guides.gamepressure.com/gfx/logos/980x360/980_1299653562.jpg"],
   "genre":["RPG, Action"],
-  "details" : "",
+  "details" : "The Elder Scrolls V: Skyrim retains the large and open world concept of The Elder Scrolls series. The player can freely roam throughout the province of Skyrim, which includes nine large cities, many small villages, as well as vast expanses of wild lands and high mountains. In cities, the player can indulge in activities such as cooking and potions, enchanting items, farming, working with ore, or blacksmithing. At the same time, the developers noted that a complete detailed study of the world could take about 500 hours.",
   "id": "1"
  },
  {
@@ -49,7 +50,7 @@
   "id": "7"
  },
   {
-  "name": "Sid Meier’s Civilization VI",
+  "name": "Civilization VI",
   "img": "https://pbs.twimg.com/media/FPRIUYiVEAUZtls?format=jpg&name=4096x4096",
   "genre":["Strategy"],
   "details" : "",

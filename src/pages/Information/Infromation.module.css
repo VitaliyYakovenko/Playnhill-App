@@ -1,0 +1,13 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.heroImg {
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1280px;
+    margin: 0 auto;
+    height: 720px;
+}
