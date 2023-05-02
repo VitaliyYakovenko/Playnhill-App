@@ -32,7 +32,7 @@ export default function Information() {
         </Slider>         
         <h1>Detailed information about {topGame[gameId - 1]?.name}</h1>
         <p>{topGame[gameId - 1].details}</p>
-        <img src={"#"} width={100} height={100} alt="img" />
+        <img src={""} width={100} height={100} alt="img" />
         <div>
           <Link to="plot">
           <button>Plot</button>

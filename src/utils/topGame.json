@@ -12,50 +12,71 @@
  {
   "name": "Battlefield 2042",  
   "img": "https://content2.rozetka.com.ua/goods/images/big/226821546.jpg",
+  "sliderImg": ["https://cdn.cloudflare.steamstatic.com/steam/apps/1517290/ss_a02a7a8e8fe4602894334fb54da62878b58274c7.1920x1080.jpg?t=1682430413", "https://artline.ua/storage/images/news/703/ru/news_1628078519880673_0.webp", "https://www.5.ua/media/pictures/original/220596.jpg?t=1623245946"],
   "genre":["Shooter, Action"],
-  "details": "",
+  "plot": "In the near future, a series of natural disasters and economic crises led to an international catastrophe and numerous victims. Germany and the EU have collapsed, a second great depression is emerging, communication systems have been damaged, and water, food and energy resources are in great short supply. Homeless people united in groups, calling themselves restless, their self-determination was no longer based on citizenship or nationality. At the same time, the last superpowers: Russia and the United States intend to start a war for the world's last resources, using specialists from the ranks of the restless who sided with these states for a reward.",
+  "details" : "Plot Battlefield 2042 takes place in a post-apocalyptic world on the brink of world war. The consequences of the cataclysms gave rise to the Restless - a new group of people with self-determination, not tied to a particular nationality.",
+  "creatorsCompany" : ["DICE", "Ripple Effect Studios", "Criterion Games", "EA Gothenburg"],
   "id": "2"
  },
  {
   "name": "Red dead redemption 2",
   "img": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Red_Dead_Redemption.jpg/220px-Red_Dead_Redemption.jpg",
+  "sliderImg": ["https://content1.rozetka.com.ua/goods/images/big/225040299.jpg", "https://media.cntraveler.com/photos/5ea2ebe0da75960008ab1706/16:9/w_2560%2Cc_limit/RedDeadRedemption2-RockstarGames2.jpg", "https://i.pcmag.com/imagery/reviews/03xWKqpzOrLCuYNLkWWkPNk-1..v1574817543.jpg"],
   "genre":["Shooter, Action, RPG"],
-  "details" : "",
+  "plot": "The main character of the game is a member of Dutch Van der Linde's gang named Arthur Morgan. In addition to Arthur, Dutch's gang includes about 20 other people, including some characters from the previous game in the series, Red Dead Redemption. In the epilogue, the protagonist is John Marston, the protagonist of Red Dead Redemption. The Van der Linde gang is opposed by agents of the Pinkerton detective agency, hired by tycoon Levitt Cornwall, led by Andrew Milton, as well as bandits from a rival gang of Colm O'Driscoll.",
+  "details" : "Red Dead Redemption 2 is an open world action-adventure game; the player controls a single character, with the option to switch the camera to first-person or third-person view of their choice. The game includes both single-player and multiplayer modes - the latter is called Red Dead Online. For much of the single-player mode's story campaign, the player controls a character named Arthur Morgan, a member of the Van der Linde gang; the story campaign includes a series of missions - linear scenarios with a clearly defined goal in each, which the player must complete in sequence. Not missions are given the opportunity to freely travel around the vast world of the game, independently finding interesting places and side tasks. The player can engage in battles with enemies, using both techniques and weapons for hand-to-hand combat, as well as a variety of firearms and explosives.",
+  "creatorsCompany" : ["Rockstar Studios", "Rockstar Games"],
   "id": "3"
  },
  {
   "name": "Need for Speed: Heat",
   "img": "https://image.api.playstation.com/vulcan/ap/rnd/202210/3121/9y8pTbxVRpmB9qqFOiKsaJgA.png",
+  "sliderImg": ["https://image.api.playstation.com/vulcan/ap/rnd/202210/3121/XemhVDBuAEVrQXUkJF57ZsdX.jpg", "https://image.api.playstation.com/vulcan/ap/rnd/202210/0317/wx1XVbKM1IXOrB87U0IqI8Pf.png", "https://assetsio.reedpopcdn.com/need-for-speed-heat-review-a-slight-return-to-form-for-the-series-1573199910704.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp"],
   "genre":["Race"],
-  "details" : "",
+  "plot": "The story of NFS Heat begins with a TV news story about the creation of a night racing special unit, led by police lieutenant Frank Mercer, whose main task is to end night racing. After that, a race begins, during which the police appear, and one racer, trying to escape, rushed to the bridge. Shaw, one of Mercer's men, severely damages the racer's car, causing it to fall into the water. The racer managed to jump out of the car, Shaw starts kicking him, he is stopped by Mercer, who has just arrived, who comes up with the idea that the caught racer can become a messenger for the others - he will convey Mercer's message that night racing has come to an end. Eva Torres, Mercer's assistant, who arrived at the scene of the accident, indicates that everything will be known to the authorities, to which Mercer turns off nearby cameras using his laptop and deletes the recordings of what happened. After that, the police leave, and the racer leaves the city. After some time, Ana Riviera appears there, who is surprised to learn that the racer is leaving the city with his brother, and thus her team has disintegrated.",
+  "details": "Need for Speed ​​Heat is an open world racing game called Palm City.[5] In this game, races are divided into night races, for which you can get reputation for leveling up, and legal day races, during which you can earn money to buy cars and improvements. After each night race, the level of the chase will increase and it will become more and more difficult for the player to get away from the police. You can increase the level of the chase by passing radars, passing jumping competitions and breaking police cars.",
+  "creatorsCompany":["Ghost Games", "Ghost Games UK", "Ghost Games Bucharest"],
   "id": "4"
  },
  {
   "name": "Mount & Blade II: Bannerlord",
   "img": "https://upload.wikimedia.org/wikipedia/ru/a/a7/Mount_%26_Blade_II-_Bannerlord_%28%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0%29.jpg",
+  "sliderImg" : ["https://content2.rozetka.com.ua/goods/images/original/240169333.jpg", "https://cdn.gamestatic.net/files/editor_uploads/Plohoymnu/%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8C%202019/%D0%BC%D0%BE%D0%B4%D1%8B.jpg", "https://www.global-esports.news/wp-content/uploads/2022/04/Mount-Blade-2.jpg"],
   "genre":["RPG, Action"],
-  "details" : "",
+  "plot": "The game is set 200 years before Mount & Blade: Warband. It takes place during the fall of the Calradian Empire and the rise of the independent kingdoms that appear in previous games. The Calradian Empire and its fall are analogous to the Roman Empire and the formation of early European kingdoms. Armor, weapons and architecture will draw inspiration from 600 to 1100 AD. e. After the death of the last emperor, detachments of mercenaries, gangs of bandits and nomadic tribes are fighting on the territory of Calradia. The player is free to join either side and achieve the reunification of the empire under a single authority, or, conversely, achieve its final collapse.",
+  "details" : "Mount & Blade II: Bannerlord is an open-world action/RPG video game developed by Turkish studio TaleWorlds for Windows. The game was announced in 2012[3] and released into Early Access on March 30, 2020. Like Mount & Blade and Mount & Blade: Warband, Bannerlord offers the player a vast world reminiscent of medieval Europe, with many activities and opportunities - whether it be the life of a mercenary, merchant or feudal lord; an integral part of it are real-time battles with many warriors on both sides, in which the player character fights on horseback at the head of an armed detachment. Bannerlord is a prequel to Mount & Blade: Warband and shows a somewhat earlier stage in the history of the fictional world - the collapse of an empire reminiscent of Rome; during the course of the game, the player-controlled hero can reunite the empire and return it to its former glory, or completely destroy it.",
+  "creatorsCompany" : ["TaleWorlds Entertainment"],
   "id": "5"
  },
  {
   "name": "The Witcher 3: Wild Hunt",
   "img": "https://picfiles.alphacoders.com/198/thumb-198636.jpg",
+  "sliderImg" : ["https://funduk.ua/upload/iblock/f52/f5245e0c1094d897849b51ee6ffc2033.jpg", "https://support.cdprojektred.com/build/images/th-witcher-d30cef51.jpg", "https://prod.assets.earlygamecdn.com/images/witcher-3-remaster-release-date.webp?mtime=1652980939"],
   "genre":["RPG, Action"],
-  "details" : "",
+  "plot": "The plot centers on a new invasion of the Nilfgaard Empire, the search for Ciri and a conflict with the Wild Hunt. The narrative is not divided into chapters, as in previous games, which was made possible thanks to the new engine. The plot provides for 36 final states of the world, to which the player's actions can lead. Such characters as Vesemir, Lambert, Eskel, Buttercup, Zoltan Chivay, Triss Merigold, Keira Metz, Sigismund Dijkstra, Vernon Roche, Summer from Guleta, Cirilla, Yennefer, Emhyr var Emreis and many others appear in the game. The return of some characters depends on the decisions made by the player in the second part of the game, and this can be done without transferring the save.",
+  "details" : "A fantasy game based on Slavic mythology about the witcher Geralt of Rivia, a monster hunter whose adopted daughter Ciri is in danger of being pursued by the Wild Hunt, a mysterious otherworldly force, a mystery which is revealed as the game progresses. Many plot details refer back to the books written by Sapkowski, but the plot remains tied to the first two installments and wraps up the trilogy that began with the first game, which came out eight years earlier. Unlike previous games, The Witcher 3 takes place in an open world and focuses on using Geralt's combat and detective skills to complete orders and explore the environment. This is all part of a multi-level main quest with many side missions that can be completed with 36 different endings.",
+  "creatorsCompany": ["CD Projekt RED", "Saber Interactive"],
   "id": "6"
  }, 
  {
   "name": "Dark Souls III",
-  "img": "https://image.api.playstation.com/cdn/EP0700/CUSA03365_00/OFMeAw2KhrdaEZAjW1f3tCIXbogkLpTC.png?",
+  "img": "https://howlongtobeat.com/games/Dark_souls_3_cover_art.jpg",
+  "sliderImg": ["https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/06/Dark-Souls-3-10-Must-Know-Things-For-New-Players.jpg", "https://media.wired.com/photos/5926610faf95806129f4f3e3/master/w_2560%2Cc_limit/DarkSouls_TA.jpg", "https://twinfinite.net/wp-content/uploads/2022/12/Dark-Souls-3-Bosses.png?fit=1200%2C675"],
   "genre":["RPG, Action"],
-  "details" : "",
+  "plot": "The game takes place in Lothric, at the junction of the Lords of Ash. Since Gwyn the Lord of Cinder first kindled the First Flame, many centuries have passed and many cycles have been ignited and extinguished by the First Flame. After he kindled the fire, this path was repeated by many great heroes known as the Lords of Cinder. But the First Flame is extinguished again, and someone must rekindle it to prevent the world from plunging into Darkness. Prince Lothric, one of the heirs of the royal family, was supposed to kindle the First Flame in this cycle, but did not answer the call, deciding to wait until the First Flame went out by itself.",
+  "details" : "Just like its predecessor, Dark Souls II, the game is made in the action RPG genre in the setting of the Middle Ages and dark fantasy. The world is divided into dozens of dungeons, castles and other labyrinths filled with various dangerous monsters and bosses. Here you have to upgrade your character, find new weapons, armor and magic. One of the key mechanics is character death. Since there are no options for creating saves, upon death you will be moved to the last checkpoint, some of the killed enemies will be resurrected and there will be a risk of losing unused experience.",
+  "creatorsCompany": ["Bandai Namco Entertainment: FromSoftware"],
   "id": "7"
  },
   {
   "name": "Civilization VI",
   "img": "https://pbs.twimg.com/media/FPRIUYiVEAUZtls?format=jpg&name=4096x4096",
+  "sliderImg": ["https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SidMeiersCivilizationVI.jpg", "https://cdn.2kgames.com/civilization.com/Beginners_Civ_hero.jpg" , "https://cdn1.epicgames.com/cd14dcaa4f3443f19f7169a980559c62/offer/EGS_SidMeiersCivilizationVI_FiraxisGames_S1-2560x1440-2fcd1c150ac6d8cdc672ae042d2dd179.jpg"],
   "genre":["Strategy"],
-  "details" : "",
+  "plot": "As in the previous parts, the player controls the development of the chosen civilization (nation), developing it throughout the game years and eras. The gameplay is divided into steps, for each step you can perform a limited number of actions. The main process takes place on a world map divided into hexagonal cells. Initially, it is hidden and is explored as the representatives of the nation travel or in the course of exchanging information with other nations. Each cell has its own characteristics, such as the landscape, availability of resources. Playing for different civilizations has its subtleties. Each of them has a general civilization bonus, a leader bonus, a unique unit and an infrastructure object. Opponents of the player are AI-controlled nations or other players.",
+  "details" : "Civilization VI is a turn-based strategy game in which one or more players compete against AI opponents to build and develop their own civilization, starting with a small tribe, gradually expanding their empire in order to dominate the entire planet. This goal can be achieved in various ways, depending on the victory conditions. Players establish cities, expand them, improve them in various ways, and also create military units designed to reconnoiter and attack enemy forces, constantly monitoring the development of their civilization's technologies and diplomatic relations with others.",
+  "creatorsCompany": ["Firaxis Games"],
   "id": "8"
  }
 
