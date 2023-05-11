@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[613],{7613:function(e,t,n){n.r(t),n.d(t,{default:function(){return a}});var r=n(184);function a(){return(0,r.jsx)("section",{children:(0,r.jsxs)("div",{children:[(0,r.jsx)("h1",{children:"Information"}),(0,r.jsx)("p",{children:"Here you can get detailed information about the game you are interested in. At the moment there is information about the games presented on the main page. Thanks for waiting"})]})})}}}]);
+//# sourceMappingURL=613.e8379f85.chunk.js.map

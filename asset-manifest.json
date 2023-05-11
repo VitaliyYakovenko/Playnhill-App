@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Playnhill-App/static/css/main.bf2fdd65.css",
-    "main.js": "/Playnhill-App/static/js/main.cf3ab4da.js",
-    "static/css/523.7e1bbb7e.chunk.css": "/Playnhill-App/static/css/523.7e1bbb7e.chunk.css",
-    "static/js/523.f2308909.chunk.js": "/Playnhill-App/static/js/523.f2308909.chunk.js",
+    "main.css": "/Playnhill-App/static/css/main.6340fecf.css",
+    "main.js": "/Playnhill-App/static/js/main.77371a03.js",
+    "static/js/613.e8379f85.chunk.js": "/Playnhill-App/static/js/613.e8379f85.chunk.js",
+    "static/css/254.f3e9cac6.chunk.css": "/Playnhill-App/static/css/254.f3e9cac6.chunk.css",
+    "static/js/254.b214e6d9.chunk.js": "/Playnhill-App/static/js/254.b214e6d9.chunk.js",
     "static/js/124.f3dfe7ee.chunk.js": "/Playnhill-App/static/js/124.f3dfe7ee.chunk.js",
     "static/js/517.5d96dd08.chunk.js": "/Playnhill-App/static/js/517.5d96dd08.chunk.js",
     "static/js/46.f148c0d7.chunk.js": "/Playnhill-App/static/js/46.f148c0d7.chunk.js",
@@ -15,10 +16,11 @@
     "index.html": "/Playnhill-App/index.html",
     "static/media/arrow-down.svg": "/Playnhill-App/static/media/arrow-down.b470baa17dd8eb50d265b2cc5eb50e93.svg",
     "static/media/arrow-up.svg": "/Playnhill-App/static/media/arrow-up.634447110ac1b932a2794e5249b3e69b.svg",
-    "main.bf2fdd65.css.map": "/Playnhill-App/static/css/main.bf2fdd65.css.map",
-    "main.cf3ab4da.js.map": "/Playnhill-App/static/js/main.cf3ab4da.js.map",
-    "523.7e1bbb7e.chunk.css.map": "/Playnhill-App/static/css/523.7e1bbb7e.chunk.css.map",
-    "523.f2308909.chunk.js.map": "/Playnhill-App/static/js/523.f2308909.chunk.js.map",
+    "main.6340fecf.css.map": "/Playnhill-App/static/css/main.6340fecf.css.map",
+    "main.77371a03.js.map": "/Playnhill-App/static/js/main.77371a03.js.map",
+    "613.e8379f85.chunk.js.map": "/Playnhill-App/static/js/613.e8379f85.chunk.js.map",
+    "254.f3e9cac6.chunk.css.map": "/Playnhill-App/static/css/254.f3e9cac6.chunk.css.map",
+    "254.b214e6d9.chunk.js.map": "/Playnhill-App/static/js/254.b214e6d9.chunk.js.map",
     "124.f3dfe7ee.chunk.js.map": "/Playnhill-App/static/js/124.f3dfe7ee.chunk.js.map",
     "517.5d96dd08.chunk.js.map": "/Playnhill-App/static/js/517.5d96dd08.chunk.js.map",
     "46.f148c0d7.chunk.js.map": "/Playnhill-App/static/js/46.f148c0d7.chunk.js.map",
@@ -26,7 +28,7 @@
     "641.ebe594e8.chunk.js.map": "/Playnhill-App/static/js/641.ebe594e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf2fdd65.css",
-    "static/js/main.cf3ab4da.js"
+    "static/css/main.6340fecf.css",
+    "static/js/main.77371a03.js"
   ]
 }
