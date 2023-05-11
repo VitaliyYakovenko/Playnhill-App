@@ -1,10 +1,15 @@
-import HeroHome from "components/Hero-components/Hero-Home/HeroHome"
-import TopGameList from "components/Hero-components/TopGameList/TopGameList"
+import HeroHome from "components/Hero-components/Hero-Home/HeroHome";
+import TopGameList from "components/Hero-components/TopGameList/TopGameList";
+import ElementBar from "components/Hero-components/ElementBar/ElementBar";
 
 export default function Home() {
-    return (<div>
+    return (
+        
+        <div>
         <HeroHome />
-        <TopGameList/>
-    </div>)
+        <TopGameList />
+        <ElementBar/>    
+        </div>
+        )
 }
 
