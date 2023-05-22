@@ -7,16 +7,23 @@ const modalRoot = document.getElementById("modal-root");
 export default function Modal({onCloseModal, modalImg}) {
     
     useEffect(() => {
-    const hendleKeydown = (e) => {
-        if (e.code === "Escape") onCloseModal()
+        const hendleKeydown = (e) => {
+        if (e.code === "Escape") {
+        onCloseModal()
+        }       
     }
-        
-        window.document.addEventListener("keydown", hendleKeydown); 
-        return (() => {
-        return window.removeEventListener("keydown", hendleKeydown);
-    });
+       
+    window.addEventListener("keydown", hendleKeydown);
+    document.body.classList.add('no-scroll');    
+    return (() => {
+    return (
+    window.removeEventListener("keydown", hendleKeydown),
+    document.body.classList.remove('no-scroll') 
+    )
+    })
     },[onCloseModal])
     
+
     const handeBackropClick = (e) => {
     if (e.currentTarget === e.target || e.target.nodeName === "BUTTON") {
             onCloseModal();
