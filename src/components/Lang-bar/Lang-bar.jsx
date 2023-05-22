@@ -12,23 +12,25 @@ export default function SelectVariants() {
   const langArr = ['RU', 'UA', 'EN'];   
 
   
-    const onGetLang = (event) => {
+  const onGetLang = (event) => {
         setLang(event.target.dataset.lang);
         setActive(false);
     }
    
     
     return (
-    <>  
-    <p>{lang}</p>
+    <>
+    <div className={css.langBox}>    
+    <p className={css.langName}>{lang}</p>
     <button
     className={css.buttonLang}    
-    onClick={() => setActive(true)}>
+    onClick={() => setActive(!active)}>
     {active
     ? <img src={iconArrowUp} alt='icon'/>
     : <img src={iconArrowDown} alt='icon'/> 
     }            
     </button>
+    </div>      
     {active && <ul className={css.langBar}>
     {langArr.map(lang => (
     <li
