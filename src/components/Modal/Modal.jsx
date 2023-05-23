@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 import css from "./Modal.module.css";
 import topGame from 'utils/topGame';
 const modalRoot = document.getElementById("modal-root");
@@ -53,4 +54,11 @@ export default function Modal({onCloseModal, modalImg}) {
     </div>            
     </div>
     ,modalRoot)
+}
+
+
+
+Modal.propTypes = {
+        modalImg: PropTypes.string.isRequired,
+        onCloseModal: PropTypes.func.isRequired,
 }
