@@ -16,7 +16,41 @@
 
 
 .modal {
+    align-items: center;
+    display: flex;
     width: 1070px;
-    height: 580px;
-    background-color: #07050E;
+    height:  580px;
+
+    background: #07050E;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.modalImg {
+    display: block;
+    padding: 40px 30px 40px 40px;
+    border-radius: 15px;
+}
+
+.modalInform {
+    display: flex;
+    flex-direction: column;
+}
+
+.modalImgName {
+    margin-bottom: 440px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+
+.modalControl {
+   display: flex;
+}
+
+.linkDetails {
+    color: #FFFFFF;
+    margin-right: 100px;
 }

@@ -12,6 +12,9 @@ export default function ToGameList() {
   const [modalImg, setModalImg] = useState(null);
 
   const onOpenModal = (e) => {
+
+    if(showModal)  return
+
     if (e.target.nodeName === "IMG") {
       const { img } = e.target.dataset;
       setShowModal(true)
