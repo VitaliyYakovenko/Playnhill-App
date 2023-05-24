@@ -1,6 +1,3 @@
-
-
-
 .overlay {
     position: fixed;
     top: 0;
@@ -29,7 +26,7 @@
 .modalImg {
     display: block;
     padding: 40px 30px 40px 40px;
-    border-radius: 15px;
+    border-radius: 100px;
 }
 
 .modalInform {
@@ -38,7 +35,7 @@
 }
 
 .modalImgName {
-    margin-bottom: 440px;
+    margin-bottom: 400px;
     font-weight: 600;
     font-size: 20px;
     line-height: 150%;
@@ -48,9 +45,36 @@
 
 .modalControl {
    display: flex;
+   align-items: center;
 }
 
 .linkDetails {
     color: #FFFFFF;
     margin-right: 100px;
+}
+
+
+.closeModalBtn {
+    margin-left: 350px;
+
+    display: inline-block;
+    min-width: 135px;
+    min-height: 60px;
+    border: 2px solid #77BE1D;
+    
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    cursor: pointer;
+    background-color: #07050E;
+    color: #FFFFFF;
+    border-radius: 15px;
+    transition: color 250ms linear,
+    border-color 250ms ease-in-out;
+}
+
+.closeModalBtn:hover,
+.closeModalBtn:focus {
+    color: rgb(211, 54, 54);
+    border-color: rgb(211, 54, 54);
 }

@@ -9,6 +9,14 @@
     gap: 15px;
 }
 
+
 .galleryItem {
     flex-basis: calc(100% - 5 * 15px) / 4;
+    cursor: pointer;
+    transition: scale 250ms linear;
+}
+
+.galleryItem:focus,
+.galleryItem:hover {
+    scale: 1.05;
 }

@@ -48,7 +48,7 @@ export default function Modal({onCloseModal, modalImg}) {
     <div className={css.modalControl}>                
     <Link className={css.linkDetails}
     to={`/detailed/${topGame[index].id}`}>Details</Link>            
-    <button>Close</button>
+    <button className={css.closeModalBtn}>Close</button>
     </div>                    
     </div>             
     </div>            
@@ -59,6 +59,6 @@ export default function Modal({onCloseModal, modalImg}) {
 
 
 Modal.propTypes = {
-        modalImg: PropTypes.string.isRequired,
-        onCloseModal: PropTypes.func.isRequired,
+    modalImg: PropTypes.string.isRequired,
+    onCloseModal: PropTypes.func.isRequired,
 }
