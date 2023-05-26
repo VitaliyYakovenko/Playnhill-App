@@ -36,7 +36,13 @@ li {
   list-style: none;
 }
 
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+/* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

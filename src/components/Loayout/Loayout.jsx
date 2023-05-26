@@ -8,27 +8,27 @@ import css from "./Loayout.module.css";
 
 export default function Loayout() {
     return (<>
-    <header>
+    <header className={css.header}>
     <div className={css.container}>       
     <SelectLabels/>      
     <nav>
-    <ul>
-        <li>
+    <ul className={css.navList}>
+        <li className={css.navItem}>
         <NavLink to="/">Home</NavLink>        
         </li>
-        <li>
+        <li className={css.navItem}>
         <NavLink to='/detailed'>Detailed information</NavLink>        
         </li>
-        <li>
+        <li className={css.navItem}>
         <NavLink to='/genres'>Game genres</NavLink>                
         </li>
-        <li>
+        <li className={css.navItem}>
         <NavLink to='/application'>Application information</NavLink>                
         </li>
-        <li>
+        <li className={css.navItem}>
         <NavLink to='/technologies'>Technologies</NavLink>                
         </li>        
-         </ul>            
+    </ul>            
     </nav> 
     </div>            
     </header>

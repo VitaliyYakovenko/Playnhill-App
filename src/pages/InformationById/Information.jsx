@@ -6,7 +6,6 @@ import css from './Infromation.module.css';
 
 
 
-
 export default function Information() {
   const { gameId } = useParams();
   

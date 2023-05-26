@@ -1,5 +1,26 @@
  
+
+.header {
+
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
  .container {
+     display: flex;
+     justify-content: space-between;
+     
+     padding-left: 15px;
+     padding-right: 15px;
      width: 1280px;
      margin: 0 auto;
  }
+
+
+ .navList {
+    display: flex;
+ }
+
+ .navItem {
+    margin-right: 18px;
+ } 

@@ -8,7 +8,7 @@ export default function HeroHome () {
     const carsArrImg = [carLeft, carCenter, carRigth];
     
     const settings = {
-      dots: true,
+      // dots: true,
       infinite: true,
       speed: 2000,
       slidesToShow: 1,
