@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Modal from 'components/Modal/Modal';
 import topGame from 'utils/topGame';
+import utilsCss from "utils.module.css";
 import css from './TopGameList.module.css';
-
 
   
 
@@ -28,7 +28,7 @@ export default function ToGameList() {
 
   return (
     <section>
-    <div className={css.container}>
+    <div className={utilsCss.container}>
       <h2>Top games in different genres</h2>
         <ul
         onClick={onOpenModal}  

@@ -7,6 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #06030F;
+  color: #FFFFFF;
   /* background-color: #000000; */
 }
 
@@ -22,7 +24,8 @@ p {
 }
 
 a {
-  text-decoration: none
+  text-decoration: none;
+  color: inherit;
 }
 img {
   display: block;

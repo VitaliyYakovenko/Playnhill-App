@@ -1,8 +1,6 @@
 import Slider from "react-slick";
 import screenshots from "../../../utils/screenshot";
-import css from "./ElementBar.module.css";
-
-
+import utilsCss from "utils.module.css";
 
 
 export default function ElementBar() {
@@ -19,7 +17,7 @@ export default function ElementBar() {
 
     return (
         <>
-         <div className={css.container}>   
+         <div className={utilsCss.container}>   
         <h2>Screenshot</h2>
             <Slider {...settings}>
             {screenshots.map(el => (

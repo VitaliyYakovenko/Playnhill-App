@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import SelectLabels from "components/Lang-bar/Lang-bar";
 import Footer from "components/Footer/Footer";
+import utilsCss from "utils.module.css";
 import css from "./Loayout.module.css";
 
 
@@ -9,7 +10,8 @@ import css from "./Loayout.module.css";
 export default function Loayout() {
     return (<>
     <header className={css.header}>
-    <div className={css.container}>       
+    <div className={utilsCss.container}>
+    <div className={css.footerFlex}>            
     <SelectLabels/>      
     <nav>
     <ul className={css.navList}>
@@ -29,7 +31,8 @@ export default function Loayout() {
         <NavLink to='/technologies'>Technologies</NavLink>                
         </li>        
     </ul>            
-    </nav> 
+    </nav>
+    </div>                
     </div>            
     </header>
     <main>

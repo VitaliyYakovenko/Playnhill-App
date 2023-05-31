@@ -1,5 +1,6 @@
 import Slider from "react-slick";
 import css from './HeroHome.module.css';
+import utilsCss from "utils.module.css";
 import carLeft from 'images/car-left.jpg';
 import carCenter from 'images/car-center.jpg';
 import carRigth from 'images/car-rigth.jpg';
@@ -19,8 +20,9 @@ export default function HeroHome () {
       
     };
     
-    return (
-        <div className={css.container}>
+  return (
+    <section className={css.sectionHeroHome}>
+    <div className={utilsCss.container}>
         <h1>Playnhill</h1>
          <Slider {...settings}>
         {carsArrImg.map(car => (<div key={car}>
@@ -28,5 +30,6 @@ export default function HeroHome () {
         </div>))}
         </Slider>       
       </div>
+    </section>  
     );
   }

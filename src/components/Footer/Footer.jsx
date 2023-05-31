@@ -1,8 +1,8 @@
-import css from "./Footer.module.css";
+import utilsCss from "../../utils.module.css";
 
 export default function Footer() {
     return (<footer>
-        <div className={css.container}>СУПЕР КРУТОЙ ФУТЕР</div>
+        <div className={utilsCss.container}>СУПЕР КРУТОЙ ФУТЕР</div>
     </footer>)
 }
 

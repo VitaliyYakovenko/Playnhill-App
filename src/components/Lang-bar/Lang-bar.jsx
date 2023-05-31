@@ -12,10 +12,14 @@ export default function SelectVariants() {
   const langArr = ['RU', 'UA', 'EN'];   
 
   
-  const onGetLang = (event) => {
-        setLang(event.target.dataset.lang);
-        setActive(false);
-    }
+  const onGetLang = (event) => {  
+    const lang = event.target.dataset.lang;
+
+    if (!lang) return
+  
+    setLang(event.target.dataset.lang);
+    setActive(false);
+  }
    
     
     return (
@@ -38,9 +42,7 @@ export default function SelectVariants() {
     onClick={onGetLang}
     data-lang={lang}        
     key={lang}>
-    <span className={css.lang}>
-    {lang}            
-    </span>
+    {lang}    
     </li>))}               
     </ul>}                 
       </>

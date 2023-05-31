@@ -1,5 +1,9 @@
-
+import utilsCss from "utils.module.css";
 
 export default function Blog() {
-    return(<div>Blog</div>)
+    return (
+        <section>
+           <div className={utilsCss.container}>Blog</div> 
+        </section>
+       )
 }
