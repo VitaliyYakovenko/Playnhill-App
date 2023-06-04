@@ -41,9 +41,9 @@ export default function Information() {
           <button>Creators</button>
           </Link>
         </div>
-       <Suspense fallback={<p>...loading</p>}>
+        <Suspense fallback={<p>...loading</p>}>
           <Outlet/>
-          </Suspense>
+        </Suspense>
         </div>
         </>    
     )

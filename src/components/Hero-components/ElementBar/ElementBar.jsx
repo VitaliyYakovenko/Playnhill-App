@@ -1,9 +1,8 @@
 import Slider from "react-slick";
-import screenshots from "../../../utils/screenshot";
 import utilsCss from "utils.module.css";
 
 
-export default function ElementBar() {
+export default function ElementBar({screenshots}) {
        
     const settings = {
       dots: false,
