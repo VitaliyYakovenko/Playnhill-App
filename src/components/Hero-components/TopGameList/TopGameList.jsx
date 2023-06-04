@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Modal from 'components/Modal/Modal';
-import topGame from 'utils/topGame';
+// import topGame from 'utils/topGame';
 import utilsCss from "utils.module.css";
 import css from './TopGameList.module.css';
 
   
 
-export default function ToGameList() {
+export default function ToGameList({topGame}) {
   const [showModal, setShowModal] = useState(false);
   const [modalImg, setModalImg] = useState(null);
 

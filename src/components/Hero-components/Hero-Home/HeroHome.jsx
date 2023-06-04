@@ -1,12 +1,10 @@
 import Slider from "react-slick";
 import css from './HeroHome.module.css';
 import utilsCss from "utils.module.css";
-import carLeft from 'images/car-left.jpg';
-import carCenter from 'images/car-center.jpg';
-import carRigth from 'images/car-rigth.jpg';
 
-export default function HeroHome () {
-    const carsArrImg = [carLeft, carCenter, carRigth];
+
+export default function HeroHome ({carsArrImg}) {
+
     
     const settings = {
       // dots: true,
