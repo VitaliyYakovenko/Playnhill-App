@@ -1,8 +1,22 @@
 
+
+
+.topGameSection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 25px;
+    justify-content: center;
+}
+
+
+
+.topGameTitle {
+    margin-bottom: 35px;
 }
 
 
@@ -12,7 +26,13 @@
     transition: scale 250ms linear;
 }
 
+
 .galleryItem:focus,
 .galleryItem:hover {
     scale: 1.05;
+}
+
+.topGameImg {
+    display: block;
+    border-radius: 15px;
 }

@@ -1,5 +1,6 @@
 import Slider from "react-slick";
 import utilsCss from "utils.module.css";
+import css from "./ElementBar.module.css"; 
 
 
 export default function ElementBar({screenshots}) {
@@ -11,13 +12,13 @@ export default function ElementBar({screenshots}) {
       slidesToShow: 2,
       slidesToScroll: 2,
       autoplay: true,
-      autoplaySpeed: 5000,  
+      autoplaySpeed: 8000,  
     };
 
     return (
-        <>
+        <section className={css.elementBarSection}>
          <div className={utilsCss.container}>   
-        <h2>Screenshot</h2>
+        <h2 className={css.elemBarTitle}>Screenshot</h2>
             <Slider {...settings}>
             {screenshots.map(el => (
             <div key={el}>
@@ -28,6 +29,6 @@ export default function ElementBar({screenshots}) {
             </div>))}
            </Slider>
          </div>
-        </>
+        </section>
     )
 }

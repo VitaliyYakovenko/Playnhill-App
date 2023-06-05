@@ -1,7 +1,7 @@
 import { useParams,Link, Outlet } from "react-router-dom";
 import { Suspense } from "react";
 import Slider from "react-slick";
-import topGame from 'utils/topGame';
+import topGame from 'db/topGame';
 import css from './Infromation.module.css';
 
 

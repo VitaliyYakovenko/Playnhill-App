@@ -3,7 +3,7 @@ import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 import css from "./Modal.module.css";
-import topGame from 'utils/topGame';
+import topGame from 'db/topGame';
 const modalRoot = document.getElementById("modal-root");
 
 

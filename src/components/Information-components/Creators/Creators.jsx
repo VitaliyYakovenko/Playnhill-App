@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import topGame from 'utils/topGame';
+import topGame from 'db/topGame';
 
 export default function Creators() {
     const { gameId } = useParams();

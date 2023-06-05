@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Modal from 'components/Modal/Modal';
-// import topGame from 'utils/topGame';
 import utilsCss from "utils.module.css";
 import css from './TopGameList.module.css';
 
@@ -27,15 +26,16 @@ export default function ToGameList({topGame}) {
   }
 
   return (
-    <section>
+    <section className={css.topGameSection}>
     <div className={utilsCss.container}>
-      <h2>Top games in different genres</h2>
+      <h2 className={css.topGameTitle}>Top games in different genres</h2>
         <ul
         onClick={onOpenModal}  
         className={css.gallery}>
         {topGame.map(game => (
         <li className={css.galleryItem} key={game.id}>
-            <img 
+            <img
+            className={css.topGameImg}  
             data-img={game.img}
             width={300}
             height={450}
