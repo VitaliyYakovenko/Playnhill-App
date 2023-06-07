@@ -41,9 +41,13 @@ export default function ToGameList({topGame}) {
             height={450}
             src={game.img}
             alt="game-poster"/>
-           <p>{game.name}</p>
-           {game.genre.map(genre => <p key={genre}>{genre}</p>)}
-            <Link to={`/detailed/${game.id}`}>Details</Link>
+           <p className={css.topGameName}>{game.name}</p>
+            {game.genre.map(genre => <p
+            className={css.topGameGanre}
+            key={genre}>{genre}
+            </p>)}
+            <Link className={css.topGameLink}
+            to={`/detailed/${game.id}`}>Details</Link>
             {showModal && <Modal onCloseModal={onCloseModal} modalImg={modalImg}/>}
         </li>
        ))}

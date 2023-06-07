@@ -22,17 +22,54 @@
 
 .galleryItem {
     flex-basis: calc(100% - 5 * 15px) / 4;
-    cursor: pointer;
-    transition: scale 250ms linear;
 }
-
-
-.galleryItem:focus,
-.galleryItem:hover {
-    scale: 1.05;
+.galleryItem:nth-child(4) {
+    margin-bottom: 40px;
 }
 
 .topGameImg {
+    transition: scale 250ms linear;
+     
     display: block;
     border-radius: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.topGameImg:focus,
+.topGameImg:hover {
+    scale: 1.05;
+}
+
+.topGameName {
+    width: 260px;
+    margin-bottom: 10px;
+    margin-left: 22px;
+ 
+    font-weight: 500;
+    font-size: 24px; 
+}
+
+.topGameGanre {
+    margin-bottom: 15px;
+    margin-left: 22px;
+
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+
+
+.topGameLink {
+    transition: color 250ms linear;
+
+    margin-left: 22px;
+
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.topGameLink:hover,
+.topGameLink:focus {
+    color: #77BE1D;
 }
