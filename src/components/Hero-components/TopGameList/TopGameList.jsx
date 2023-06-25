@@ -6,7 +6,7 @@ import css from './TopGameList.module.css';
 
   
 
-export default function ToGameList({topGame}) {
+export default function ToGameList({topGames}) {
   const [showModal, setShowModal] = useState(false);
   const [modalImg, setModalImg] = useState(null);
 
@@ -32,7 +32,7 @@ export default function ToGameList({topGame}) {
         <ul
         onClick={onOpenModal}  
         className={css.gallery}>
-        {topGame.map(game => (
+        {topGames.map(game => (
         <li className={css.galleryItem} key={game.id}>
             <img
             className={css.topGameImg}  
@@ -51,7 +51,7 @@ export default function ToGameList({topGame}) {
             {showModal && <Modal onCloseModal={onCloseModal} modalImg={modalImg}/>}
         </li>
        ))}
-      </ul>
+        </ul>
      </div>
     </section>
     )

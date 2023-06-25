@@ -1,14 +1,21 @@
-import { useParams,Link, Outlet } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useParams, Link, Outlet } from "react-router-dom";
 import { Suspense } from "react";
 import Slider from "react-slick";
-import topGame from 'db/topGame';
+import { getGameById } from "rest-api/getGameById";
 import css from './Infromation.module.css';
 
 
 
 export default function Information() {
   const { gameId } = useParams();
+  const [game, setGame] = useState({});
   
+  useEffect(() => {
+    getGameById(gameId).then(resp => setGame(resp));
+ 
+   }, [gameId]);
+
      const settings = {
     //   dots: true,
       infinite: true,
@@ -26,12 +33,12 @@ export default function Information() {
         <div className={css.container}>
         <h1>Playnhill</h1>
          <Slider {...settings}>
-        {topGame[gameId - 1].sliderImg?.map(img => (<div key={img}>
+        {game.sliderImg?.map(img => (<div key={img}>
         <div className={css.heroImg} style={{ backgroundImage: `url(${img})`}}></div>
         </div>))}
         </Slider>         
-        <h1>Detailed information about {topGame[gameId - 1]?.name}</h1>
-        <p>{topGame[gameId - 1].details}</p> 
+        <h1>Detailed information about {game.name}</h1>
+        <p>{game.details}</p> 
         <img src={""} width={100} height={100} alt="img" />
         <div>
           <Link to="plot">
@@ -48,3 +55,6 @@ export default function Information() {
         </>    
     )
 }
+
+
+

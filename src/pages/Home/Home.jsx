@@ -1,25 +1,59 @@
+import { useEffect, useState } from "react";
 import HeroHome from "components/Hero-components/Hero-Home/HeroHome";
 import TopGameList from "components/Hero-components/TopGameList/TopGameList";
 import ElementBar from "components/Hero-components/ElementBar/ElementBar";
+import LoadMoreBtn from "components/Hero-components/LoadMoreBtn/LoadMoreBtn";
 import IconBand from "components/Hero-components/Icon-band/IconBand";
+import { getAllTopGames } from "rest-api/getAllTopGames";
+import { getAllScreenshot } from "rest-api/getAllScreenshot";
 
-import topGame from 'db/topGame';
-import carLeft from 'images/car-left.jpg';
-import carCenter from 'images/car-center.jpg';
-import carRigth from 'images/car-rigth.jpg';
-import screenshots from "db/screenshot";
 
 
 export default function Home() {
-    const carsArrImg = [carLeft, carCenter, carRigth];
+    const [topGames, setTopGames] = useState([]);
+    const [screenshots, setScreenshots] = useState([]);
+    const [page, setPage] = useState(1);
+    const total = 32;
 
+    useEffect(() => {
+        getAllTopGames()
+        .then(resp => setTopGames(resp));
+        
+        getAllScreenshot()
+        .then(resp => setScreenshots(resp))
+    } , []);
+
+    
+    const udpagePage = () => {
+        setPage((prev) => prev + 1);
+    }
+ 
+
+    useEffect(() => { 
+        console.log(page);
+         if (page > 1) {
+         getAllTopGames(page)
+          .then(resp => {
+            setTopGames(prev => [...prev , ...resp])
+          });
+         }
+        
+    }, [page]);
+
+
+    const bannerImages = screenshots.map(el => el.banner);
+
+    
     return (
         
         <div>
-        <HeroHome carsArrImg={carsArrImg} />
-        <TopGameList topGame={topGame}/>
+        <HeroHome bannerImages={bannerImages} />
+        <TopGameList topGames={topGames} />
+        {topGames.length !== total
+        ? <LoadMoreBtn udpagePage={udpagePage} />
+        : <></>}    
         <ElementBar screenshots={screenshots} />
-        <IconBand/>    
+        <IconBand />    
         </div>
         )
 }

@@ -3,7 +3,7 @@ import css from './HeroHome.module.css';
 import utilsCss from "utils.module.css";
 
 
-export default function HeroHome ({carsArrImg}) {
+export default function HeroHome ({bannerImages}) {
 
     
     const settings = {
@@ -23,8 +23,10 @@ export default function HeroHome ({carsArrImg}) {
     <div className={utilsCss.container}>
         <h1>Playnhill</h1>
          <Slider {...settings}>
-        {carsArrImg.map(car => (<div key={car}>
-        <div className={css.heroImg} style={{ backgroundImage: `url(${car})`}}></div>
+        {bannerImages.map(el => (<div key={el}>
+        <div className={css.heroImg}
+        style={{ backgroundImage: `url(${el})` }}>
+        </div>
         </div>))}
         </Slider>       
       </div>

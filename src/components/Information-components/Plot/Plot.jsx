@@ -1,9 +1,17 @@
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import topGame from 'db/topGame';
+import { getGameById } from "rest-api/getGameById";
+
 
 export default function Plot() {
-    const { gameId } = useParams();    
+    const { gameId } = useParams();  
+    const [plot, setPlot] = useState("");
+
+    useEffect(() => {
+        getGameById(gameId).then(resp => setPlot(resp.plot));
+    }, [gameId]);
+
     return (<>
-    <p>{topGame[gameId - 1].plot}</p>
+    <p>{plot}</p>
     </>)
 }
