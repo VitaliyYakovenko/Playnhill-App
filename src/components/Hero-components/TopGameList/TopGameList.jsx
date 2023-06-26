@@ -9,15 +9,18 @@ import css from './TopGameList.module.css';
 export default function ToGameList({topGames}) {
   const [showModal, setShowModal] = useState(false);
   const [modalImg, setModalImg] = useState(null);
+  const [gameId, setGameId] = useState(null);
+  const [gameName, setGameName] = useState(null);
 
   const onOpenModal = (e) => {
-
     if(showModal)  return
 
     if (e.target.nodeName === "IMG") {
-      const { img } = e.target.dataset;
+      const { img , id, name} = e.target.dataset;
       setShowModal(true)
       setModalImg(img); 
+      setGameId(id);
+      setGameName(name)
      }
   }
 
@@ -32,11 +35,14 @@ export default function ToGameList({topGames}) {
         <ul
         onClick={onOpenModal}  
         className={css.gallery}>
+          
         {topGames.map(game => (
         <li className={css.galleryItem} key={game.id}>
             <img
             className={css.topGameImg}  
             data-img={game.img}
+            data-id={game.id}
+            data-name={game.name}  
             width={300}
             height={450}
             src={game.img}
@@ -48,9 +54,15 @@ export default function ToGameList({topGames}) {
             </p>)}
             <Link className={css.topGameLink}
             to={`/detailed/${game.id}`}>Details</Link>
-            {showModal && <Modal onCloseModal={onCloseModal} modalImg={modalImg}/>}
+            {showModal && <Modal
+              onCloseModal={onCloseModal}
+              modalImg={modalImg}
+              gameName={gameName}
+              gameId={gameId}
+            />}
         </li>
-       ))}
+        ))}
+          
         </ul>
      </div>
     </section>

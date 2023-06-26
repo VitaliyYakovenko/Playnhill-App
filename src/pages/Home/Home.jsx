@@ -30,7 +30,7 @@ export default function Home() {
  
 
     useEffect(() => { 
-        console.log(page);
+  
          if (page > 1) {
          getAllTopGames(page)
           .then(resp => {

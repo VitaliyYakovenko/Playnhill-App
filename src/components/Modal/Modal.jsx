@@ -3,12 +3,12 @@ import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 import css from "./Modal.module.css";
-import topGame from 'db/topGame';
 const modalRoot = document.getElementById("modal-root");
 
 
-export default function Modal({onCloseModal, modalImg}) {      
-    const index = topGame.findIndex(el => el.img === modalImg);
+export default function Modal({ onCloseModal, modalImg, gameName , gameId }) {
+    
+    
   
     useEffect(() => {
         const hendleKeydown = (e) => {
@@ -44,10 +44,10 @@ export default function Modal({onCloseModal, modalImg}) {
     height="500"
     alt="modal-pick" />
     <div className={css.modalInform}>            
-    <p className={css.modalImgName}>{topGame[index].name}</p>
+    <p className={css.modalImgName}>{gameName}</p>
     <div className={css.modalControl}>                
     <Link className={css.linkDetails}
-    to={`/detailed/${topGame[index].id}`}>Details</Link>            
+    to={`/detailed/${gameId}`}>Details</Link>            
     <button className={css.closeModalBtn}>Close</button>
     </div>                    
     </div>             
@@ -61,4 +61,7 @@ export default function Modal({onCloseModal, modalImg}) {
 Modal.propTypes = {
     modalImg: PropTypes.string.isRequired,
     onCloseModal: PropTypes.func.isRequired,
-}
+    gameName: PropTypes.string.isRequired,
+    gameId: PropTypes.string.isRequired,
+};
+
