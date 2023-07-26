@@ -1,11 +1,20 @@
 import Slider from "react-slick";
 import css from './HeroHome.module.css';
-import utilsCss from "utils.module.css";
+import utilsCss from "../../../utils.module.css";
+import IScreenshotsObj from "../../../interfaces/IScreenshotsObj";
 
 
-export default function HeroHome ({bannerImages}) {
+interface IProp {
+    bannerImages: IScreenshotsObj[];
+}
 
-    
+
+export default function HeroHome({ bannerImages }:IProp) {
+
+
+  const banners = bannerImages.map(el => el.banner);
+  
+
     const settings = {
       // dots: true,
       infinite: true,
@@ -23,7 +32,7 @@ export default function HeroHome ({bannerImages}) {
     <div className={utilsCss.container}>
         <h1>Playnhill</h1>
          <Slider {...settings}>
-        {bannerImages.map(el => (<div key={el}>
+        {banners.map(el => (<div key={el}>
         <div className={css.heroImg}
         style={{ backgroundImage: `url(${el})` }}>
         </div>

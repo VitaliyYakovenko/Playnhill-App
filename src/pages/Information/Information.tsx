@@ -1,4 +1,4 @@
-import utilsCss from "utils.module.css";
+import utilsCss from "../../utils.module.css";
 import css from './Information.module.css';
  
 export default function Information() {

@@ -1,17 +1,21 @@
 import { useEffect } from "react";
 import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
-import PropTypes from 'prop-types';
 import css from "./Modal.module.css";
-const modalRoot = document.getElementById("modal-root");
+const modalRoot = document.getElementById("modal-root") as HTMLDivElement;
 
 
-export default function Modal({ onCloseModal, modalImg, gameName , gameId }) {
-    
-    
+interface IProps {
+    onCloseModal: () => void;
+    modalImg: string;
+    gameName: string;
+    gameId: string;
+};
+
+export default function Modal({ onCloseModal, modalImg, gameName , gameId }: IProps) {
   
     useEffect(() => {
-        const hendleKeydown = (e) => {
+        const hendleKeydown = (e:KeyboardEvent) => {
         if (e.code === "Escape") {
         onCloseModal()
         }       
@@ -28,8 +32,9 @@ export default function Modal({ onCloseModal, modalImg, gameName , gameId }) {
     },[onCloseModal])
     
 
-    const handeBackropClick = (e) => {
-    if (e.currentTarget === e.target || e.target.nodeName === "BUTTON") {
+    const handeBackropClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+     
+    if (e.currentTarget === e.target || (e.target as HTMLElement).nodeName === "BUTTON") {
         onCloseModal();
     }
     }
@@ -58,10 +63,4 @@ export default function Modal({ onCloseModal, modalImg, gameName , gameId }) {
 
 
 
-Modal.propTypes = {
-    modalImg: PropTypes.string.isRequired,
-    onCloseModal: PropTypes.func.isRequired,
-    gameName: PropTypes.string.isRequired,
-    gameId: PropTypes.string.isRequired,
-};
 

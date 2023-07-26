@@ -1,26 +1,40 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Modal from 'components/Modal/Modal';
-import utilsCss from "utils.module.css";
+import Modal from '../../Modal/Modal';
+import utilsCss from "../../../utils.module.css";
 import css from './TopGameList.module.css';
+import IGamesObj from '../../../interfaces/IGamesObj';
 
+
+interface iProps {
+    topGames: IGamesObj[];
+};
+
+type TState = string;
   
+export default function ToGameList({ topGames }: iProps) {
+  const [showModal, setShowModal] = useState<boolean>(false);
+  const [modalImg, setModalImg] = useState <TState>("");
+  const [gameId, setGameId] = useState <TState>("");
+  const [gameName, setGameName] = useState <TState>("");
+ 
 
-export default function ToGameList({topGames}) {
-  const [showModal, setShowModal] = useState(false);
-  const [modalImg, setModalImg] = useState(null);
-  const [gameId, setGameId] = useState(null);
-  const [gameName, setGameName] = useState(null);
+  const onOpenModal = (e: React.MouseEvent<HTMLUListElement>) => {
 
-  const onOpenModal = (e) => {
-    if(showModal)  return
+   if(showModal)  return
+ 
+   const targetElement = e.target as HTMLElement;
 
-    if (e.target.nodeName === "IMG") {
-      const { img , id, name} = e.target.dataset;
-      setShowModal(true)
-      setModalImg(img); 
+  if (targetElement.nodeName === "IMG") {
+
+    const { img, id, name } = targetElement.dataset as DOMStringMap;
+  
+      if (img && id && name) {
+      setShowModal(true);
+      setModalImg(img);
       setGameId(id);
-      setGameName(name)
+      setGameName(name);
+    }
      }
   }
 

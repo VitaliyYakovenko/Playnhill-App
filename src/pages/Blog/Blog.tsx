@@ -1,4 +1,4 @@
-import utilsCss from "utils.module.css";
+import utilsCss from "../../utils.module.css";
 
 export default function Blog() {
     return (
