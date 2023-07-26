@@ -1,9 +1,14 @@
 import Slider from "react-slick";
-import utilsCss from "utils.module.css";
+import utilsCss from "../../../utils.module.css";
 import css from "./ElementBar.module.css"; 
+import IScreenshotsObj from "../../../interfaces/IScreenshotsObj";
+
+interface IProp {
+  screenshots: IScreenshotsObj[];
+}
 
 
-export default function ElementBar({screenshots}) {
+export default function ElementBar({screenshots}: IProp) {
        
     const settings = {
       dots: false,
@@ -21,7 +26,7 @@ export default function ElementBar({screenshots}) {
         <h2 className={css.elemBarTitle}>Screenshot</h2>
             <Slider {...settings}>
             {screenshots.map(el => (
-            <div key={el}>
+            <div key={el.img}>
             <img src={el.img}
             width="620"
             height="360"            

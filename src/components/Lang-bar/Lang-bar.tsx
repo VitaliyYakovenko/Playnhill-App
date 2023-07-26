@@ -1,8 +1,7 @@
 import {useState} from 'react';
-import iconArrowDown from "images/arrow-down.svg";
-import iconArrowUp from "images/arrow-up.svg";
+import iconArrowDown from "../../images/arrow-down.svg";
+import iconArrowUp from "../../images/arrow-up.svg";
 import css from './LangBar.module.css';
-
 
 
 
@@ -12,12 +11,12 @@ export default function SelectVariants() {
   const langArr = ['RU', 'UA', 'EN'];   
 
   
-  const onGetLang = (event) => {  
-    const lang = event.target.dataset.lang;
+  const onGetLang = (event:React.MouseEvent<HTMLLIElement>) => {  
+    const lang = event.currentTarget.dataset.lang;
 
     if (!lang) return
   
-    setLang(event.target.dataset.lang);
+    setLang(lang);
     setActive(false);
   }
    

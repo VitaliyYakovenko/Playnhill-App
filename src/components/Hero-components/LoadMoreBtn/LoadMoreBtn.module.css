@@ -1,9 +1,23 @@
 
 .LoadMoreBtn {
-   
+   transition: background-color 250ms linear, scale 250ms linear;
+
    display: block;
    margin: 30px auto 0 auto;
-   width: 50px;
-   height: 50px;
+   min-width: 240px;
+   min-height: 62px;
    cursor: pointer;
+   border-radius: 15px;
+   font-family: Manrope;
+   font-size: 18px;
+   font-weight: 600;
+
+   background-color: #77BE1D;
+   color: #FFFFFF;
+}
+
+.LoadMoreBtn:hover,
+.LoadMoreBtn:focus {
+   background-color: #00B67A;
+   scale: 1.1;
 }

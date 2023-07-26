@@ -1,13 +1,16 @@
-import { useState } from "react";
 import css from "./LoadMoreBtn.module.css";
 
-export default function LoadMoreBtn({udpagePage}) {
-  const [page, setPage] = useState(1);
+
+interface IProp { 
+  udpagePage: () => void;
+}
+
+export default function LoadMoreBtn({udpagePage}: IProp) {
+
+    const onAddPage = () => {    
+        udpagePage();
+   }
   
-    const onAddPage = () => {
-        setPage((prev) => prev + 1);
-        udpagePage(page);
-    }
     return (
         <>
         <button className={css.LoadMoreBtn} type="button"

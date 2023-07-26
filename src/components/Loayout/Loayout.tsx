@@ -1,8 +1,8 @@
 import { Suspense } from "react";
 import { NavLink, Outlet } from "react-router-dom";
-import SelectLabels from "components/Lang-bar/Lang-bar";
-import Footer from "components/Footer/Footer";
-import utilsCss from "utils.module.css";
+import SelectLabels from "../Lang-bar/Lang-bar";
+import Footer from "../Footer/Footer";
+import utilsCss from "../../utils.module.css";
 import css from "./Loayout.module.css";
 
 
