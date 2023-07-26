@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/191.1b9494d8.chunk.js","mappings":"iMAGe,SAASA,IACpB,OAAOC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,gBAChB,C","sources":["pages/Technologies/Technologies.tsx"],"sourcesContent":["\n\n\nexport default function Technologies() {\n    return(<div>Technologies</div>)\n}"],"names":["Technologies","_jsx","children"],"sourceRoot":""}
