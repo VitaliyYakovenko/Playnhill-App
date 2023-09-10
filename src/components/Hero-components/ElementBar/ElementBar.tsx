@@ -2,15 +2,18 @@ import Slider from "react-slick";
 import utilsCss from "../../../utils.module.css";
 import css from "./ElementBar.module.css"; 
 import IScreenshotsObj from "../../../interfaces/IScreenshotsObj";
+import ISettings from "../../../interfaces/ISettings";
 
 interface IProp {
   screenshots: IScreenshotsObj[];
 }
 
 
+
+
 export default function ElementBar({screenshots}: IProp) {
        
-    const settings = {
+    const settings:ISettings = {
       dots: false,
       infinite: true,
       speed: 2000,

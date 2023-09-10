@@ -4,11 +4,11 @@ import { getGameById } from "../../../rest-api/getGameById";
 
 
 export default function Plot() {
-     const { gameId } = useParams<{ gameId: string | any}>(); 
+    const { gameId } = useParams<{ gameId: string | any}>(); 
     const [plot, setPlot] = useState("");
 
     useEffect(() => {
-        getGameById(gameId).then((resp:any) => setPlot(resp.plot));
+        getGameById(gameId).then((resp) => setPlot(resp.plot));
     }, [gameId]);
 
     return (<>

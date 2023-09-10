@@ -10,13 +10,13 @@ interface iProps {
     topGames: IGamesObj[];
 };
 
-type TState = string;
+
   
 export default function ToGameList({ topGames }: iProps) {
   const [showModal, setShowModal] = useState<boolean>(false);
-  const [modalImg, setModalImg] = useState <TState>("");
-  const [gameId, setGameId] = useState <TState>("");
-  const [gameName, setGameName] = useState <TState>("");
+  const [modalImg, setModalImg] = useState <string>("");
+  const [gameId, setGameId] = useState <string>("");
+  const [gameName, setGameName] = useState <string>("");
  
 
   const onOpenModal = (e: React.MouseEvent<HTMLUListElement>) => {

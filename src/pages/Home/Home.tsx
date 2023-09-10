@@ -7,14 +7,14 @@ import IconBand from "../../components/Hero-components/Icon-band/IconBand";
 import { getAllTopGames } from "../../rest-api/getAllTopGames";
 import { getAllScreenshot } from "../../rest-api/getAllScreenshot";
 import IGamesObj from "../../interfaces/IGamesObj";
-
+import IScreenshotsObj from "../../interfaces/IScreenshotsObj";
 
 
 
 export default function Home() {
 
     const [topGames, setTopGames] = useState<IGamesObj[]>([]);
-    const [screenshots, setScreenshots] = useState([]);
+    const [screenshots, setScreenshots] = useState<IScreenshotsObj[]>([]);
     const [page, setPage] = useState(1); 
     
 
@@ -23,10 +23,10 @@ export default function Home() {
 
     useEffect(() => {
         getAllTopGames()
-        .then((resp:any) => setTopGames(resp));
+        .then((resp:IGamesObj[]) => setTopGames(resp));
         
         getAllScreenshot()
-        .then((resp:any) => setScreenshots(resp))
+            .then((resp:IScreenshotsObj[]) => setScreenshots(resp));
     } , []);
 
     
@@ -39,7 +39,7 @@ export default function Home() {
   
          if (page > 1) {
          getAllTopGames(page)
-          .then((resp:any) => {
+          .then((resp:IGamesObj[]) => {
               setTopGames((prev: IGamesObj[]) => [...prev, ...resp])     
           });
          }

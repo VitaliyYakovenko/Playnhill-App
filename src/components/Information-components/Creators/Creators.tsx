@@ -11,7 +11,7 @@ export default function Creators() {
 
     useEffect(() => { 
         getGameById(gameId)
-        .then((resp:any) => setCreators(resp.creatorsCompany))
+        .then((resp) => setCreators(resp.creatorsCompany))
     }, [gameId]);
 
     
