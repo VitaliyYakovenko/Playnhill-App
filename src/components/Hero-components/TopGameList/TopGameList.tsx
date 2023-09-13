@@ -3,23 +3,25 @@ import { Link } from 'react-router-dom';
 import Modal from '../../Modal/Modal';
 import utilsCss from "../../../utils.module.css";
 import css from './TopGameList.module.css';
+import { updateFavoriteById } from '../../../rest-api/updateFavoriteById';
 import IGamesObj from '../../../interfaces/IGamesObj';
-
+import iconStarNoFavorite from "../../../images/iconStarNoFavorite.svg";
+import iconStarFavorite from "../../../images/starFavorite.svg";
 
 interface iProps {
     topGames: IGamesObj[];
 };
 
 
-  
 export default function ToGameList({ topGames }: iProps) {
   const [showModal, setShowModal] = useState<boolean>(false);
   const [modalImg, setModalImg] = useState <string>("");
   const [gameId, setGameId] = useState <string>("");
-  const [gameName, setGameName] = useState <string>("");
+  const [gameName, setGameName] = useState<string>("");
+  // const [favorites, setFavorites] = useState<Record<string, boolean>>({});
  
 
-  const onOpenModal = (e: React.MouseEvent<HTMLUListElement>) => {
+  const onOpenModal = (e: React.MouseEvent<HTMLUListElement>):void => {
 
    if(showModal)  return
  
@@ -41,6 +43,16 @@ export default function ToGameList({ topGames }: iProps) {
   const onCloseModal = () => {
     setShowModal(false);
   }
+  
+  const onClickFavorite = (id: string): void => {
+    updateFavoriteById(id);
+    // updateFavoriteById(id).then(() => {
+    //   setFavorites((prevFavorites) => ({
+    //     ...prevFavorites,
+    //     [id]: !prevFavorites[id],
+    //   }));
+    // });
+  };
 
   return (
     <section className={css.topGameSection}>
@@ -52,7 +64,19 @@ export default function ToGameList({ topGames }: iProps) {
           
         {topGames.map(game => (
         <li className={css.galleryItem} key={game.id}>
-            <img
+          <div className={css.galleryImgBox}> 
+              <div onClick={() => onClickFavorite(game.id)}>
+              {game.favorite
+                  ? <img className={css.iconFavorite} src={iconStarFavorite} alt={"icon-star"}/>
+                  : <img className={css.iconFavorite} src={iconStarNoFavorite} alt={"icon-star"} /> 
+              }
+                {/* {favorites[game.id] ? (
+                    <img className={css.iconFavorite} src={iconStarFavorite} alt={"icon-star"} />
+                ) : (
+                    <img className={css.iconFavorite} src={iconStarNoFavorite} alt={"icon-star"} />
+                )} */}
+            </div>    
+            <img   
             className={css.topGameImg}  
             data-img={game.img}
             data-id={game.id}
@@ -61,6 +85,7 @@ export default function ToGameList({ topGames }: iProps) {
             height={450}
             src={game.img}
             alt="game-poster"/>
+          </div>     
            <p className={css.topGameName}>{game.name}</p>
             {game.genre.map(genre => <p
             className={css.topGameGanre}
@@ -68,6 +93,7 @@ export default function ToGameList({ topGames }: iProps) {
             </p>)}
             <Link className={css.topGameLink}
             to={`/detailed/${game.id}`}>Details</Link>
+            
             {showModal && <Modal
               onCloseModal={onCloseModal}
               modalImg={modalImg}

@@ -9,4 +9,5 @@ export default interface IGamesObj {
     name: string,
     plot: string,
     sliderImg: string[],
+    favorite: boolean
 }

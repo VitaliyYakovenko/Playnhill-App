@@ -21,8 +21,26 @@
 
 
 .galleryItem {
+    
     flex-basis: calc(100% - 5 * 15px) / 4;
 }
+
+.galleryImgBox {
+    position: relative;
+}
+
+.iconFavorite {
+    cursor: pointer;
+    position: absolute;
+    z-index: 22;
+    top: 12px;
+    right: 16px;
+  
+    width: 44px;
+    height: 44px;
+}
+
+
 .galleryItem:nth-child(4) {
     margin-bottom: 40px;
 }
