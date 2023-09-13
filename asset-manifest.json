@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Playnhill-App/static/css/main.47ca580b.css",
-    "main.js": "/Playnhill-App/static/js/main.70cc6848.js",
+    "main.css": "/Playnhill-App/static/css/main.ece1698c.css",
+    "main.js": "/Playnhill-App/static/js/main.c6685f2b.js",
     "static/css/181.50098abb.chunk.css": "/Playnhill-App/static/css/181.50098abb.chunk.css",
     "static/js/181.65d69c3c.chunk.js": "/Playnhill-App/static/js/181.65d69c3c.chunk.js",
     "static/js/794.3c4e582d.chunk.js": "/Playnhill-App/static/js/794.3c4e582d.chunk.js",
@@ -23,10 +23,12 @@
     "static/media/wolf-head.svg": "/Playnhill-App/static/media/wolf-head.d18b748f509c3a18d80c544a317e76de.svg",
     "static/media/robe.svg": "/Playnhill-App/static/media/robe.34abcda154ec6e2d70e9a0e660840642.svg",
     "static/media/goblin.svg": "/Playnhill-App/static/media/goblin.9f2f4194094551fce099177d3c2d7fb2.svg",
+    "static/media/iconStarNoFavorite.svg": "/Playnhill-App/static/media/iconStarNoFavorite.69ab510164089e7950f21f4bb24daf83.svg",
+    "static/media/starFavorite.svg": "/Playnhill-App/static/media/starFavorite.4248a9b26f75758f2e99fa1720e89dc4.svg",
     "static/media/arrow-down.svg": "/Playnhill-App/static/media/arrow-down.b470baa17dd8eb50d265b2cc5eb50e93.svg",
     "static/media/arrow-up.svg": "/Playnhill-App/static/media/arrow-up.634447110ac1b932a2794e5249b3e69b.svg",
-    "main.47ca580b.css.map": "/Playnhill-App/static/css/main.47ca580b.css.map",
-    "main.70cc6848.js.map": "/Playnhill-App/static/js/main.70cc6848.js.map",
+    "main.ece1698c.css.map": "/Playnhill-App/static/css/main.ece1698c.css.map",
+    "main.c6685f2b.js.map": "/Playnhill-App/static/js/main.c6685f2b.js.map",
     "181.50098abb.chunk.css.map": "/Playnhill-App/static/css/181.50098abb.chunk.css.map",
     "181.65d69c3c.chunk.js.map": "/Playnhill-App/static/js/181.65d69c3c.chunk.js.map",
     "794.3c4e582d.chunk.js.map": "/Playnhill-App/static/js/794.3c4e582d.chunk.js.map",
@@ -36,7 +38,7 @@
     "214.6c43edcd.chunk.js.map": "/Playnhill-App/static/js/214.6c43edcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47ca580b.css",
-    "static/js/main.70cc6848.js"
+    "static/css/main.ece1698c.css",
+    "static/js/main.c6685f2b.js"
   ]
 }
