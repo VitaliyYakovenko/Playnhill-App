@@ -11,8 +11,8 @@ import IScreenshotsObj from "../../interfaces/IScreenshotsObj";
 
 
 
-export default function Home() {
 
+export default function Home() {
     const [topGames, setTopGames] = useState<IGamesObj[]>([]);
     const [screenshots, setScreenshots] = useState<IScreenshotsObj[]>([]);
     const [page, setPage] = useState(1); 
@@ -30,7 +30,7 @@ export default function Home() {
     } , []);
 
     
-    const udpagePage = () => {
+    const udpagePage = ():void => {
         setPage((prev) => prev + 1);
     }
  
@@ -47,17 +47,28 @@ export default function Home() {
     }, [page]);
 
 
+    const changeFavorite = (id: string):void => {
+        
+      const gameIndex = topGames.findIndex((game) => game.id === id);  
+       
+      if (gameIndex !== -1) {
+      topGames[gameIndex].favorite = !topGames[gameIndex].favorite;
+      setTopGames([...topGames]);
+    } 
+   };
+
+
     return (
         <div>
-        <HeroHome bannerImages={screenshots} />
-        <TopGameList topGames={topGames} />
-        {topGames.length !== total
-        ? <LoadMoreBtn         
-        udpagePage={udpagePage} />
-        : <></>}    
-        <ElementBar screenshots={screenshots} />
-        <IconBand />    
+            <HeroHome bannerImages={screenshots} />
+            <TopGameList topGames={topGames} changeFavorite={changeFavorite} />
+            {topGames.length !== total
+                ? <LoadMoreBtn
+                    udpagePage={udpagePage} />
+                : <></>}
+            <ElementBar screenshots={screenshots} />
+            <IconBand />
         </div>
-        )
+    );
 }
 

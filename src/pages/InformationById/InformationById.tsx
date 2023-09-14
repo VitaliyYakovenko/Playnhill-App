@@ -8,7 +8,7 @@ import IGamesObj from "../../interfaces/IGamesObj";
 
 
 
-const InformationById: React.FC | Function= () => {
+const InformationById: React.FC | any = () => {
 
   const { gameId } = useParams < { gameId: string | any}>(); 
   const [game, setGame] = useState<IGamesObj>();

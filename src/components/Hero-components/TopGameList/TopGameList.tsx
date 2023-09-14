@@ -8,18 +8,19 @@ import IGamesObj from '../../../interfaces/IGamesObj';
 import iconStarNoFavorite from "../../../images/iconStarNoFavorite.svg";
 import iconStarFavorite from "../../../images/starFavorite.svg";
 
+
 interface iProps {
-    topGames: IGamesObj[];
+   topGames: IGamesObj[];
+   changeFavorite: (id: string) => void;
 };
 
 
-export default function ToGameList({ topGames }: iProps) {
+export default function ToGameList({ topGames ,changeFavorite}: iProps) {
   const [showModal, setShowModal] = useState<boolean>(false);
   const [modalImg, setModalImg] = useState <string>("");
   const [gameId, setGameId] = useState <string>("");
   const [gameName, setGameName] = useState<string>("");
-  // const [favorites, setFavorites] = useState<Record<string, boolean>>({});
- 
+
 
   const onOpenModal = (e: React.MouseEvent<HTMLUListElement>):void => {
 
@@ -40,71 +41,61 @@ export default function ToGameList({ topGames }: iProps) {
      }
   }
 
-  const onCloseModal = () => {
+  const onCloseModal = ():void => {
     setShowModal(false);
   }
   
   const onClickFavorite = (id: string): void => {
     updateFavoriteById(id);
-    // updateFavoriteById(id).then(() => {
-    //   setFavorites((prevFavorites) => ({
-    //     ...prevFavorites,
-    //     [id]: !prevFavorites[id],
-    //   }));
-    // });
+    changeFavorite(id);
   };
+  
 
   return (
     <section className={css.topGameSection}>
-    <div className={utilsCss.container}>
-      <h2 className={css.topGameTitle}>Top games in different genres</h2>
+      <div className={utilsCss.container}>
+        <h2 className={css.topGameTitle}>Top games in different genres</h2>
         <ul
-        onClick={onOpenModal}  
-        className={css.gallery}>
+          onClick={onOpenModal}
+          className={css.gallery}>
           
-        {topGames.map(game => (
-        <li className={css.galleryItem} key={game.id}>
-          <div className={css.galleryImgBox}> 
-              <div onClick={() => onClickFavorite(game.id)}>
-              {game.favorite
-                  ? <img className={css.iconFavorite} src={iconStarFavorite} alt={"icon-star"}/>
-                  : <img className={css.iconFavorite} src={iconStarNoFavorite} alt={"icon-star"} /> 
-              }
-                {/* {favorites[game.id] ? (
-                    <img className={css.iconFavorite} src={iconStarFavorite} alt={"icon-star"} />
-                ) : (
-                    <img className={css.iconFavorite} src={iconStarNoFavorite} alt={"icon-star"} />
-                )} */}
-            </div>    
-            <img   
-            className={css.topGameImg}  
-            data-img={game.img}
-            data-id={game.id}
-            data-name={game.name}  
-            width={300}
-            height={450}
-            src={game.img}
-            alt="game-poster"/>
-          </div>     
-           <p className={css.topGameName}>{game.name}</p>
-            {game.genre.map(genre => <p
-            className={css.topGameGanre}
-            key={genre}>{genre}
-            </p>)}
-            <Link className={css.topGameLink}
-            to={`/detailed/${game.id}`}>Details</Link>
+          {topGames.map(game => (
+            <li className={css.galleryItem} key={game.id}>
+              <div className={css.galleryImgBox}>
+                <div onClick={() => onClickFavorite(game.id)}>
+                  {game.favorite
+                    ? <img className={css.iconFavorite} src={iconStarFavorite} alt={"icon-star"} />
+                    : <img className={css.iconFavorite} src={iconStarNoFavorite} alt={"icon-star"} />
+                  }
+                </div>
+                <img
+                  className={css.topGameImg}
+                  data-img={game.img}
+                  data-id={game.id}
+                  data-name={game.name}
+                  width={300}
+                  height={450}
+                  src={game.img}
+                  alt="game-poster" />
+              </div>
+              <p className={css.topGameName}>{game.name}</p>
+              {game.genre.map(genre => <p
+                className={css.topGameGanre}
+                key={genre}>{genre}
+              </p>)}
+              <Link className={css.topGameLink}
+                to={`/detailed/${game.id}`}>Details</Link>
             
-            {showModal && <Modal
-              onCloseModal={onCloseModal}
-              modalImg={modalImg}
-              gameName={gameName}
-              gameId={gameId}
-            />}
-        </li>
-        ))}
-          
+              {showModal && <Modal
+                onCloseModal={onCloseModal}
+                modalImg={modalImg}
+                gameName={gameName}
+                gameId={gameId}
+              />}
+            </li>
+          ))}
         </ul>
-     </div>
+      </div>
     </section>
-    )
+  );
 }

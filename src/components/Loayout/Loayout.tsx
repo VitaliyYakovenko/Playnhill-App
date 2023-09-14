@@ -25,7 +25,7 @@ export default function Loayout() {
         <NavLink to='/genres'>Game genres</NavLink>                
         </li>
         <li className={css.navItem}>
-        <NavLink to='/application'>Application information</NavLink>                
+        <NavLink to='/favorite-games'>My favorite games</NavLink>                
         </li>
         <li className={css.navItem}>
         <NavLink to='/technologies'>Technologies</NavLink>                
