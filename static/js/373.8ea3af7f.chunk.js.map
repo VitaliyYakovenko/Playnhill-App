@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/373.8ea3af7f.chunk.js","mappings":"iMACe,SAASA,IACpB,OAEIC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,eACb,C","sources":["pages/Genres/Genres.tsx"],"sourcesContent":["\nexport default function Genres() {\n    return (\n        \n        <div>Game genres</div>)\n}"],"names":["Genres","_jsx","children"],"sourceRoot":""}
