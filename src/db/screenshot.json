@@ -1,38 +1,62 @@
 [
+  {
+    "screenshot": "https://cdn.akamai.steamstatic.com/steam/apps/1517290/ss_075b303b59a5e9a0ae6c0fff78839116e6f75848.1920x1080.jpg?t=1639065984",
+    "banner": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/e1ba7f65112d8d08480bc896d36b6e78.jpg",
+    "logoCompany": "https://marketplace.canva.com/EAFiIVOD-vs/2/0/1600w/canva-cream-black-modern-icons-gaming-logo-Z7WOAypnp5s.jpg",
+    "id": "1"
+  },
  {
-    "img": "https://helios-i.mashable.com/imagery/articles/00Qjz5dvXXqEp3Ji3yyYBzE/hero-image.fill.size_1248x702.v1682448256.jpg",
-    "banner":  "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/09/best-games-like-dragon-age-featured-image.jpg"
+    "screenshot": "https://helios-i.mashable.com/imagery/articles/00Qjz5dvXXqEp3Ji3yyYBzE/hero-image.fill.size_1248x702.v1682448256.jpg",
+    "banner":  "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/09/best-games-like-dragon-age-featured-image.jpg",
+    "logoCompany": "https://logo-download.com/wp-content/data/images/png/Pandemic-Studios-logo.png",
+    "id": "2"
  },
   {
-    "img": "https://www.dsogaming.com/wp-content/uploads/2023/05/Redfall-new-feature-2-1038x576.jpg",
-    "banner": "https://geek-nose.com/wp-content/uploads/2019/02/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-5.jpg"
+    "screenshot": "https://www.trueachievements.com/customimages/l/067163.jpg",
+    "banner": "https://geek-nose.com/wp-content/uploads/2019/02/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-5.jpg",
+    "logoCompany": "https://usercontent.one/wp/www.rightsprite.co.uk/wp-content/uploads/2016/04/Naughty-dog-logo.png?media=1692006653",
+    "id": "3"
   },
   {
-    "img": "https://preview.redd.it/games-blurry-is-there-any-way-to-fix-it-screenshot-is-v0-2q1gxdwh4mxa1.png?width=640&crop=smart&auto=webp&s=6d43bf9c2e14a005e7b9650bdade02155384585b",
-    "banner": "https://rozetked.me/images/uploads/wvz40sUEV74Y.jpg"
+    "screenshot": "https://preview.redd.it/games-blurry-is-there-any-way-to-fix-it-screenshot-is-v0-2q1gxdwh4mxa1.png?width=640&crop=smart&auto=webp&s=6d43bf9c2e14a005e7b9650bdade02155384585b",
+    "banner": "https://rozetked.me/images/uploads/wvz40sUEV74Y.jpg",
+    "logoCompany": "https://www.logo.wine/a/logo/Bandai_Namco_Entertainment/Bandai_Namco_Entertainment-Logo.wine.svg",
+    "id": "4"
   },
   {
-    "img": "https://w0.peakpx.com/wallpaper/478/976/HD-wallpaper-leon-kennedy-resident-evil-2-remake-in-game-screenshot-games.jpg",
-    "banner": "https://s3.eu-central-1.amazonaws.com/cometa-zp.news/wp-content/uploads/2022/01/03012538/81132908d3-1.png"
+    "screenshot": "https://w0.peakpx.com/wallpaper/478/976/HD-wallpaper-leon-kennedy-resident-evil-2-remake-in-game-screenshot-games.jpg",
+    "banner": "https://s3.eu-central-1.amazonaws.com/cometa-zp.news/wp-content/uploads/2022/01/03012538/81132908d3-1.png",
+    "logoCompany": "https://logos-world.net/wp-content/uploads/2021/12/Epic-Games-Logo.jpg",
+    "id": "5"
   },
   {
-    "img": "https://wallpapershome.com/images/pages/ico_h/24436.jpg",
-    "banner": "https://rozetked.me/images/uploads/F8He7Re8tNJD.jpg"
+    "screenshot": "https://wallpapershome.com/images/pages/ico_h/24436.jpg",
+    "banner": "https://rozetked.me/images/uploads/F8He7Re8tNJD.jpg",
+    "logoCompany": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/04/14/1ef8761f/remedy_new_logo.jpg",
+    "id": "6"
   },
   {
-    "img" : "https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,q_60,w_645/ded60d7d82cdc6c82a3350cf1f98ba6e.jpg",
-    "banner": "https://blogforlife.org/wp-content/uploads/2022/05/post_0695_0_best_games_based_on_books.jpg"
+    "screenshot" : "https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,q_60,w_645/ded60d7d82cdc6c82a3350cf1f98ba6e.jpg",
+    "banner": "https://blogforlife.org/wp-content/uploads/2022/05/post_0695_0_best_games_based_on_books.jpg",
+    "logoCompany": "https://download.logo.wine/logo/2K_(company)/2K_(company)-Logo.wine.png",
+    "id": "7"
   },
   {
-    "img" : "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/3974k2848172a2/2d13f6c5d589b65fe37cf97d58407a7409251c12.jpg",
-    "banner": "https://img.ixbt.site/live/topics/preview/00/01/88/04/fbd329383d.png"
+    "screenshot" : "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/3974k2848172a2/2d13f6c5d589b65fe37cf97d58407a7409251c12.jpg",
+    "banner": "https://img.ixbt.site/live/topics/preview/00/01/88/04/fbd329383d.png",
+    "logoCompany": "https://www.seekpng.com/png/detail/832-8326603_geek-games-company-logo-geek-games.png",
+    "id": "8"
   },
   {
-    "img" : "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2YH0i5RZDiiVjDYjPKOFGU/6a5f41bf4eea6761e9af3ab007142efc/overview1.jpg",
-    "banner": "https://img.moyo.ua/img/category_text_images/images/image8%28258%29.png"
+    "screenshot" : "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2YH0i5RZDiiVjDYjPKOFGU/6a5f41bf4eea6761e9af3ab007142efc/overview1.jpg",
+    "banner": "https://img.moyo.ua/img/category_text_images/images/image8%28258%29.png",
+    "logoCompany": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgyWiTD8xA05UaAlE91vlTl07RmH87j3VL-g&usqp=CAU",
+    "id": "9"
   },
   {
-    "img": "https://www.overclockers.ua/games/new-games-2021-part-2/05-new-games-2021-part-2.jpg",
-    "banner": "https://folga.com.ua/graphics/events/1639752027_image-main-1.jpg"
-  }  
+    "screenshot": "https://www.overclockers.ua/games/new-games-2021-part-2/05-new-games-2021-part-2.jpg",
+    "banner": "https://folga.com.ua/graphics/events/1639752027_image-main-1.jpg",
+    "logoCompany": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Naughty_Dog_logo.svg/2560px-Naughty_Dog_logo.svg.png",
+    "id": "10"
+  }
 ]

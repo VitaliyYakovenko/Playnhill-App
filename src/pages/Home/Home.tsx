@@ -3,23 +3,21 @@ import HeroHome from "../../components/Hero-components/Hero-Home/HeroHome";
 import TopGameList from "../../components/Hero-components/TopGameList/TopGameList";
 import ElementBar from "../../components/Hero-components/ElementBar/ElementBar";
 import LoadMoreBtn from "../../components/Hero-components/LoadMoreBtn/LoadMoreBtn";
-import IconBand from "../../components/Hero-components/Icon-band/IconBand";
+import IconBand from "../../components/Hero-components/IconBrand/IconBrand";
 import { getAllTopGames } from "../../rest-api/getAllTopGames";
 import { getAllScreenshot } from "../../rest-api/getAllScreenshot";
 import IGamesObj from "../../interfaces/IGamesObj";
 import IScreenshotsObj from "../../interfaces/IScreenshotsObj";
 
-
-
+ 
 
 export default function Home() {
     const [topGames, setTopGames] = useState<IGamesObj[]>([]);
     const [screenshots, setScreenshots] = useState<IScreenshotsObj[]>([]);
+    const logoCompanies:string[] = screenshots.map((screenshot) => screenshot.logoCompany);
     const [page, setPage] = useState(1); 
-    
-
     const total = 32;
- 
+
 
     useEffect(() => {
         getAllTopGames()
@@ -67,7 +65,7 @@ export default function Home() {
                     udpagePage={udpagePage} />
                 : <></>}
             <ElementBar screenshots={screenshots} />
-            <IconBand />
+            <IconBand iconBrand={logoCompanies}/>
         </div>
     );
 }

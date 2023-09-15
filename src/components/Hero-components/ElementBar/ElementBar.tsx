@@ -10,7 +10,6 @@ interface IProp {
 
 
 
-
 export default function ElementBar({screenshots}: IProp) {
        
     const settings:ISettings = {
@@ -29,8 +28,8 @@ export default function ElementBar({screenshots}: IProp) {
         <h2 className={css.elemBarTitle}>Screenshot</h2>
             <Slider {...settings}>
             {screenshots.map(el => (
-            <div key={el.img}>
-            <img src={el.img}
+            <div key={el.screenshot}>
+            <img src={el.screenshot}
             width="620"
             height="360"            
             alt="screenshot" />        

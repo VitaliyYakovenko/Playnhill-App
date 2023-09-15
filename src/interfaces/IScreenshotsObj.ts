@@ -2,5 +2,7 @@
 
 export default interface IScreenshotsObj {
     banner: string;
-    img: string;
-}
+    screenshot: string;
+    logoCompany: string,
+    id: string,
+};

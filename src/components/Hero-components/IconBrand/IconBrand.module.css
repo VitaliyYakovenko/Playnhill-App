@@ -1,0 +1,51 @@
+
+
+.IconBandSection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.iconList {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    overflow: hidden;    
+}
+
+.iconItem {
+    margin-left: 50px;
+}
+
+.icon {
+    animation: moveIcons 14s linear infinite;
+}
+
+@keyframes moveIcons {
+    0% {
+        transform: translateX(-150%);
+        animation-timing-function: linear;
+    }
+
+    25% {
+        transform: translateX(0);
+        animation-timing-function: linear;
+    }
+
+    50% {
+        transform: translateX(100%);
+        animation-timing-function: linear;
+    }
+
+    75% {
+        transform: translateX(0);
+        animation-timing-function: linear;
+    }
+
+    100% {
+        transform: translateX(-240%);
+        animation-timing-function: linear;
+    }
+}
+
+

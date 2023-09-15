@@ -12,8 +12,6 @@ interface IProp {
 
 
 export default function HeroHome({ bannerImages }:IProp) {
-
-
   const banners = bannerImages.map(el => el.banner);
   
 
