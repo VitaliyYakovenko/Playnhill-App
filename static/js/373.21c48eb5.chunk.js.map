@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/373.21c48eb5.chunk.js","mappings":"iMACe,SAASA,IAGpB,OAAQC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,UACjB,C","sources":["pages/Genres/Genres.tsx"],"sourcesContent":["\nexport default function Genres() {\n\n    \n    return (<div>Ganres</div>);\n}"],"names":["Genres","_jsx","children"],"sourceRoot":""}
