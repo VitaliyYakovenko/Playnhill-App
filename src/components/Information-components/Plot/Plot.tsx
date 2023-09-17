@@ -12,6 +12,6 @@ export default function Plot() {
     }, [gameId]);
 
     return (<>
-    <p>{plot}</p>
-    </>)
+        <p>{plot}</p>
+    </>);
 }

@@ -11,13 +11,13 @@ export default function LoadMoreBtn({udpagePage}: IProp) {
         udpagePage();
    }
   
-    return (
-        <>
-        <button className={css.LoadMoreBtn} type="button"
-         onClick={onAddPage}
-        >
-          Load More
-        </button>
-        </>
-  )
+  return (
+    <>
+      <button className={css.LoadMoreBtn} type="button"
+        onClick={onAddPage}
+      >
+        Load More
+      </button>
+    </>
+  );
 };

@@ -22,20 +22,20 @@ export default function ElementBar({screenshots}: IProp) {
       autoplaySpeed: 8000,  
     };
 
-    return (
-        <section className={css.elementBarSection}>
-         <div className={utilsCss.container}>   
+  return (
+    <section className={css.elementBarSection}>
+      <div className={utilsCss.container}>
         <h2 className={css.elemBarTitle}>Screenshot</h2>
-            <Slider {...settings}>
-            {screenshots.map(el => (
+        <Slider {...settings}>
+          {screenshots.map(el => (
             <div key={el.screenshot}>
-            <img src={el.screenshot}
-            width="620"
-            height="360"            
-            alt="screenshot" />        
+              <img src={el.screenshot}
+                width="620"
+                height="360"
+                alt="screenshot" />
             </div>))}
-           </Slider>
-         </div>
-        </section>
-    )
+        </Slider>
+      </div>
+    </section>
+  );
 }

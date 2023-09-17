@@ -1,0 +1,46 @@
+
+.gameList {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   margin-top: 40px;
+   margin-bottom: 40px;
+  
+
+   overflow: hidden;
+   max-height: 1000px;
+   transition: max-height 0.3s linear, opacity 0.3s linear;
+}
+
+.gameList.active {
+    max-height: 1000px;
+}
+
+.gameItem {
+   width: 300px;
+   margin-right: 20px;
+   margin-bottom: 40px;
+}
+
+.gameImg {
+    display: block;
+    width: 300px;
+    height: 450px;
+
+    transition: transform 250ms linear;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.gameImg:focus,
+.gameImg:hover {
+    transform: scale(1.05);
+}
+
+.gameName {
+    width: 260px;
+    margin-left: 22px;
+    font-weight: 500;
+    font-size: 24px;
+}

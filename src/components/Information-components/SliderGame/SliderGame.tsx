@@ -23,13 +23,13 @@ export default function SliderGame({images}: IProp) {
 
   return (
     <Slider {...settings}>
-            {images.map(img => (<div key={img}>
-              <div className={css.heroImg}
-                style={{ backgroundImage: `url(${img})` }}>  
-              </div>
-            </div>))}
-   </Slider>
-  )
+      {images.map(img => (<div key={img}>
+        <div className={css.heroImg}
+          style={{ backgroundImage: `url(${img})` }}>
+        </div>
+      </div>))}
+    </Slider>
+  );
     
    
 };

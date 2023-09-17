@@ -29,16 +29,16 @@ export default function HeroHome({ bannerImages }:IProp) {
     
   return (
     <section className={css.sectionHeroHome}>
-    <div className={utilsCss.container}>
-        <Title/>
+      <div className={utilsCss.container}>
+        <Title />
         <Slider {...settings}>
-        {banners.map(el => (<div key={el}>
-        <div className={css.heroImg}
-        style={{ backgroundImage: `url(${el})` }}>
-        </div>
-        </div>))}
-        </Slider>       
+          {banners.map(el => (<div key={el}>
+            <div className={css.heroImg}
+              style={{ backgroundImage: `url(${el})` }}>
+            </div>
+          </div>))}
+        </Slider>
       </div>
-    </section>  
-    );
+    </section>
+  );
   }

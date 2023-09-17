@@ -17,13 +17,13 @@ export default function Creators() {
     
     return (
         <>
-        <ul>
-         {creators.map(company => (
-          <li key={company}>
-          <span>{company}</span>       
-         </li>    
-         ))}        
-        </ul>
+            <ul>
+                {creators.map(company => (
+                    <li key={company}>
+                        <span>{company}</span>
+                    </li>
+                ))}
+            </ul>
         </>
-    )
+    );
 };
