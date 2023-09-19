@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/Playnhill-App/static/css/main.d7de0347.css",
-    "main.js": "/Playnhill-App/static/js/main.5d3d5a76.js",
+    "main.js": "/Playnhill-App/static/js/main.d0bda778.js",
     "static/js/738.e197a1d4.chunk.js": "/Playnhill-App/static/js/738.e197a1d4.chunk.js",
     "static/js/214.6c43edcd.chunk.js": "/Playnhill-App/static/js/214.6c43edcd.chunk.js",
     "static/css/181.50098abb.chunk.css": "/Playnhill-App/static/css/181.50098abb.chunk.css",
     "static/js/181.65d69c3c.chunk.js": "/Playnhill-App/static/js/181.65d69c3c.chunk.js",
-    "static/css/959.2117cfb6.chunk.css": "/Playnhill-App/static/css/959.2117cfb6.chunk.css",
-    "static/js/959.654f83c7.chunk.js": "/Playnhill-App/static/js/959.654f83c7.chunk.js",
+    "static/css/959.be9c4aa7.chunk.css": "/Playnhill-App/static/css/959.be9c4aa7.chunk.css",
+    "static/js/959.1d4b0a22.chunk.js": "/Playnhill-App/static/js/959.1d4b0a22.chunk.js",
     "static/js/237.98a3ee88.chunk.js": "/Playnhill-App/static/js/237.98a3ee88.chunk.js",
     "static/js/191.1b9494d8.chunk.js": "/Playnhill-App/static/js/191.1b9494d8.chunk.js",
+    "static/js/61.cebb8717.chunk.js": "/Playnhill-App/static/js/61.cebb8717.chunk.js",
     "static/media/game-character.jpg": "/Playnhill-App/static/media/game-character.0ade129d3d7060ed5f34.jpg",
     "index.html": "/Playnhill-App/index.html",
     "static/media/iconStarNoFavorite.svg": "/Playnhill-App/static/media/iconStarNoFavorite.69ab510164089e7950f21f4bb24daf83.svg",
@@ -17,18 +18,19 @@
     "static/media/arrow-down.svg": "/Playnhill-App/static/media/arrow-down.b470baa17dd8eb50d265b2cc5eb50e93.svg",
     "static/media/arrow-up.svg": "/Playnhill-App/static/media/arrow-up.634447110ac1b932a2794e5249b3e69b.svg",
     "main.d7de0347.css.map": "/Playnhill-App/static/css/main.d7de0347.css.map",
-    "main.5d3d5a76.js.map": "/Playnhill-App/static/js/main.5d3d5a76.js.map",
+    "main.d0bda778.js.map": "/Playnhill-App/static/js/main.d0bda778.js.map",
     "738.e197a1d4.chunk.js.map": "/Playnhill-App/static/js/738.e197a1d4.chunk.js.map",
     "214.6c43edcd.chunk.js.map": "/Playnhill-App/static/js/214.6c43edcd.chunk.js.map",
     "181.50098abb.chunk.css.map": "/Playnhill-App/static/css/181.50098abb.chunk.css.map",
     "181.65d69c3c.chunk.js.map": "/Playnhill-App/static/js/181.65d69c3c.chunk.js.map",
-    "959.2117cfb6.chunk.css.map": "/Playnhill-App/static/css/959.2117cfb6.chunk.css.map",
-    "959.654f83c7.chunk.js.map": "/Playnhill-App/static/js/959.654f83c7.chunk.js.map",
+    "959.be9c4aa7.chunk.css.map": "/Playnhill-App/static/css/959.be9c4aa7.chunk.css.map",
+    "959.1d4b0a22.chunk.js.map": "/Playnhill-App/static/js/959.1d4b0a22.chunk.js.map",
     "237.98a3ee88.chunk.js.map": "/Playnhill-App/static/js/237.98a3ee88.chunk.js.map",
-    "191.1b9494d8.chunk.js.map": "/Playnhill-App/static/js/191.1b9494d8.chunk.js.map"
+    "191.1b9494d8.chunk.js.map": "/Playnhill-App/static/js/191.1b9494d8.chunk.js.map",
+    "61.cebb8717.chunk.js.map": "/Playnhill-App/static/js/61.cebb8717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7de0347.css",
-    "static/js/main.5d3d5a76.js"
+    "static/js/main.d0bda778.js"
   ]
 }
