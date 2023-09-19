@@ -31,6 +31,7 @@ export default function Genres() {
                 {filteredGames.map((game, index) => (
                     <li key={index}>
                         <GenresName
+                            isActive={game.genre === activeGenre}
                             onToggle={toggleExpand}
                             genres={game.genre} />
                         {game.genre === activeGenre && (

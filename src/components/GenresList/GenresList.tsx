@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import IGamesObj from "../../interfaces/IGamesObj";
 import css from "./GenresList.module.css";
 
@@ -8,7 +9,6 @@ interface IProp {
 
 export default function GenresList({isActive,games}:IProp) {
 
-// ul className={`${css.gameList} ${isActive ? 'active' : ''}`}
     return (
         <>
             {isActive && <ul className={`${css.gameList} ${isActive ? 'active' : ''}`}>
@@ -20,7 +20,7 @@ export default function GenresList({isActive,games}:IProp) {
                             alt="banner game"
                             className={css.gameImg}
                         />
-                        <h3 className={css.gameName}>{game.name}</h3>
+                        <Link  to={`/detailed/${game.id}`} className={css.gameName}>{game.name}</Link>
                     </li>
                 ))}
             </ul>}

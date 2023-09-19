@@ -8,12 +8,12 @@
   
 
    overflow: hidden;
-   max-height: 1000px;
-   transition: max-height 0.3s linear, opacity 0.3s linear;
+   min-height: 0;
+   transition: min-height 0.3 ease;
 }
 
 .gameList.active {
-    max-height: 1000px;
+    min-height: 500px;
 }
 
 .gameItem {
@@ -33,14 +33,19 @@
     cursor: pointer;
 }
 
-.gameImg:focus,
-.gameImg:hover {
-    transform: scale(1.05);
-}
+
 
 .gameName {
+    transition: color 250ms linear;
+
     width: 260px;
-    margin-left: 22px;
+    margin-left: 20px;
     font-weight: 500;
     font-size: 24px;
+    cursor: pointer;
+}
+
+.gameName:focus, 
+.gameName:hover {
+    color: #77BE1D;
 }

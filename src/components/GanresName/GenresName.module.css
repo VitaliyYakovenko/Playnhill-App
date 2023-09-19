@@ -1,6 +1,9 @@
 
 
 .genreNameBox {
+    display: flex;
+    align-items: center;
+
     margin-left: auto;
     margin-right: auto;
     width: 1280px;
@@ -9,13 +12,25 @@
 }
 
 .genreName {
-    margin-left: 60px;
+    margin-left: 32px;
     margin-bottom: 10px;
  
-    cursor: pointer;
+
     color: #FFF;
-    font-size: 62px;
+    font-size: 52px;
     font-style: normal;
     font-weight: 700;
     line-height: 110%;
+}
+
+.arrowIcon  {
+    transition: transform 0.3s ease;
+
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+.arrowIcon.rotate {
+    transform: rotate(180deg);
 }
